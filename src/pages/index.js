@@ -6,13 +6,14 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import skills from '../data/skills';
+import socials from '../data/socials';
 
 function Skill({ title, icon }) {
   const imgUrl = useBaseUrl(icon);
   return (
 
     <div className={styles.skillImage}>
-      <img  src={imgUrl} alt={title} />
+      <img src={imgUrl} alt={title} />
     </div>
 
   );
@@ -20,7 +21,7 @@ function Skill({ title, icon }) {
 
 function CallToAction() {
   return (
-    <section className={clsx('bg--primary',styles.cta, styles.section)}>
+    <section className={clsx('bg--primary', styles.cta, styles.section)}>
       <div className="container text--center">
         <h2>Ready to Get Started</h2>
         <p>Now that you know all about me and my works, tell me about you.</p>
@@ -71,7 +72,7 @@ function Home() {
         </div>
       </header>
       <main>
-      
+
         {skills && skills.length > 0 && (
           <section className={clsx(styles.skills, styles.section)}>
             <div className="container text--center">
@@ -87,6 +88,20 @@ function Home() {
         )}
 
         {CallToAction()}
+
+        {socials && socials.length > 0 && (
+          <section className={clsx(styles.socials, styles.section)}>
+            <div className="container text--center padding--lg">
+              <h2>Follow Me On</h2>
+
+              <div className="row row--align-center">
+                {socials.map(({ label, link }, idx) => (
+                  <a className="padding-bottom-sm padding-left--md" href={link} target="_blank">{label}</a>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
       </main>
     </Layout>
