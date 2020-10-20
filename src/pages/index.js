@@ -5,97 +5,45 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import skills from '../data/skills';
 
-const skills = [
-  {
-    title: "Flutter",
-    icon: "img/skills/flutter.svg",
-  },
-  {
-    title: "Firebase",
-    icon: "img/skills/firebase.svg",
-  },
-  {
-    title: "Wordpress",
-    icon: "img/skills/wordpress.svg",
-  },
-  {
-    title: "React JS",
-    icon: "img/skills/react.svg",
-  },
-  {
-    title: "NestJS",
-    icon: "img/skills/nestjs.svg",
-  },
-  {
-    title: "HTML",
-    icon: "img/skills/html.svg",
-  },
-  {
-    title: "CSS",
-    icon: "img/skills/css.png",
-  },
-  {
-    title: "Javascript",
-    icon: "img/skills/js.png",
-  },
-]
-
-const features = [
-  {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-];
-
-function Feature({ imageUrl, title, description }) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={clsx('col col--4', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </div>
-  );
-}
 function Skill({ title, icon }) {
   const imgUrl = useBaseUrl(icon);
   return (
 
-    <div className="text--center">
-      <img className={styles.skillImage} src={imgUrl} alt={title} />
+    <div className={styles.skillImage}>
+      <img  src={imgUrl} alt={title} />
     </div>
 
+  );
+}
+
+function CallToAction() {
+  return (
+    <section className={clsx('bg--primary',styles.cta, styles.section)}>
+      <div className="container text--center">
+        <h2>Ready to Get Started</h2>
+        <p>Now that you know all about me and my works, tell me about you.</p>
+        <p>
+          <Link
+            className={clsx(
+              'button button--outline button--primary button--lg',
+              styles.getStarted,
+            )}
+            to={useBaseUrl('contact')}>
+            Check Out My Work
+          </Link>
+          <Link
+            className={clsx(
+              'button button--outline button--primary button--lg margin-left--md',
+              styles.getStarted,
+            )}
+            to={useBaseUrl('contact')}>
+            Shoot Me a Message
+          </Link>
+        </p>
+      </div>
+    </section>
   );
 }
 
@@ -123,32 +71,23 @@ function Home() {
         </div>
       </header>
       <main>
+      
         {skills && skills.length > 0 && (
-          <section className={styles.skills}>
+          <section className={clsx(styles.skills, styles.section)}>
             <div className="container text--center">
               <h2>Skills</h2>
               <p>Over 8 years of development experience using these platforms, frameworks and languages</p>
-              <div className="row">
+              <div className="row row--align-center">
                 {skills.map((props, idx) => (
                   <Skill key={idx} {...props} />
                 ))}
               </div>
-              <hr />
             </div>
           </section>
         )}
 
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
+        {CallToAction()}
+
       </main>
     </Layout>
   );
