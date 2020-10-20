@@ -7,6 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import skills from '../data/skills';
 import socials from '../data/socials';
+import herobg from '../data/hero-back.jpg';
 
 function Skill({ title, icon }) {
   const imgUrl = useBaseUrl(icon);
@@ -55,19 +56,21 @@ function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('contact')}>
-              Let's Work Together
-            </Link>
+      <header className={clsx('hero hero--primary', styles.heroBanner, styles.heroBg)}>
+      <div className="overlay">
+        <div className="container--fluid">
+            <h1 className="hero__title">{siteConfig.title}</h1>
+            <p className="hero__subtitle">{siteConfig.tagline}</p>
+            <div className={styles.buttons}>
+              <Link
+                className={clsx(
+                  'button button--primary button--lg',
+                  styles.getStarted,
+                )}
+                to={useBaseUrl('contact')}>
+                Let's Work Together
+              </Link>
+            </div>
           </div>
         </div>
       </header>

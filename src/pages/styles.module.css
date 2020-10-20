@@ -12,6 +12,12 @@
   overflow: hidden;
 }
 
+.heroBg {
+  background-image: url('../data/hero-back.jpg');
+  height: 100vh;
+
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;

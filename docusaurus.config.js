@@ -21,7 +21,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         }, */
-        { to: 'contact', label: 'Contact Us', position: 'right' },
+        { to: 'contact', label: 'Contact', position: 'right' },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/lohanidamodar/dlohani.com.np',

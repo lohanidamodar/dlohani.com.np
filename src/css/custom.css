@@ -21,6 +21,15 @@
   justify-content: center;
 }
 
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
