@@ -24,6 +24,15 @@
   justify-content: center;
 }
 
+.skills {
+  padding: 2rem 0;
+}
+
+.skillImage {
+  height: 100px;
+  width: 100px;
+}
+
 .features {
   display: flex;
   align-items: center;

@@ -6,6 +6,41 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
+const skills = [
+  {
+    title: "Flutter",
+    icon: "img/skills/flutter.svg",
+  },
+  {
+    title: "Firebase",
+    icon: "img/skills/firebase.svg",
+  },
+  {
+    title: "Wordpress",
+    icon: "img/skills/wordpress.svg",
+  },
+  {
+    title: "React JS",
+    icon: "img/skills/react.svg",
+  },
+  {
+    title: "NestJS",
+    icon: "img/skills/nestjs.svg",
+  },
+  {
+    title: "HTML",
+    icon: "img/skills/html.svg",
+  },
+  {
+    title: "CSS",
+    icon: "img/skills/css.png",
+  },
+  {
+    title: "Javascript",
+    icon: "img/skills/js.png",
+  },
+]
+
 const features = [
   {
     title: 'Easy to Use',
@@ -39,7 +74,7 @@ const features = [
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
@@ -53,10 +88,20 @@ function Feature({imageUrl, title, description}) {
     </div>
   );
 }
+function Skill({ title, icon }) {
+  const imgUrl = useBaseUrl(icon);
+  return (
+
+    <div className="text--center">
+      <img className={styles.skillImage} src={imgUrl} alt={title} />
+    </div>
+
+  );
+}
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -78,6 +123,21 @@ function Home() {
         </div>
       </header>
       <main>
+        {skills && skills.length > 0 && (
+          <section className={styles.skills}>
+            <div className="container text--center">
+              <h2>Skills</h2>
+              <p>Over 8 years of development experience using these platforms, frameworks and languages</p>
+              <div className="row">
+                {skills.map((props, idx) => (
+                  <Skill key={idx} {...props} />
+                ))}
+              </div>
+              <hr />
+            </div>
+          </section>
+        )}
+
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">

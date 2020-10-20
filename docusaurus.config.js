@@ -21,6 +21,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         }, */
+        { to: 'contact', label: 'Contact Us', position: 'right' },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/lohanidamodar/dlohani.com.np',
@@ -63,7 +64,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Damodar Lohani, Built with Docusaurus.`,
     },
   },
   presets: [
