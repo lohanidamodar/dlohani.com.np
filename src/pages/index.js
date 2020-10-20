@@ -106,7 +106,7 @@ function Home() {
 
               <div className="row row--align-center">
                 {socials.map(({ label, link }, idx) => (
-                  <a className="padding-bottom-sm padding-left--md" href={link} target="_blank">{label}</a>
+                  <a key={idx} className="padding-bottom-sm padding-left--md" href={link} target="_blank">{label}</a>
                 ))}
               </div>
             </div>
