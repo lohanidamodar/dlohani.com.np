@@ -10,10 +10,11 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'Damodar Lohani',
-      logo: {
+      hideOnScroll: true,
+      /* logo: {
         alt: 'Damodar Lohani',
         src: 'img/logo.svg',
-      },
+      }, */
       items: [
         /* {
           to: 'docs/',
@@ -21,13 +22,9 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         }, */
-        { to: 'contact', label: 'Contact', position: 'right' },
+        { to: 'projects', label: 'Projects', position: 'left' },
         { to: 'blog', label: 'Blog', position: 'left' },
-        {
-          href: 'https://github.com/lohanidamodar/dlohani.com.np',
-          label: 'GitHub',
-          position: 'right',
-        },
+        { to: 'contact', label: 'Contact', position: 'left' },
       ],
     },
     footer: {
