@@ -6,12 +6,12 @@ import styles from './styles.module.css';
 function Project({ title, description, image, tech }) {
     return (
 
-        <div class={clsx("container padding-bottom--xl")}>
+        <div className={clsx("container padding-bottom--xl")}>
             <img
                 src={image}
                 alt={title}
             ></img>
-            <div class="row padding-top--md">
+            <div className="row padding-top--md">
                 <div className="col">
                     <h2>{title}</h2>
                     <p>{tech}</p>

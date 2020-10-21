@@ -56,7 +56,7 @@ function Hero() {
   const { siteConfig = {} } = context;
   const { isDarkTheme } = useThemeContext();
   return (<header className={clsx('hero hero--secondary', styles.heroBanner, styles.heroBg)}>
-    <div className={isDarkTheme ? 'overlay overlay-dark' : 'overlay overlay-light'}>
+    <div className="overlay">
       <div className="container--fluid">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
