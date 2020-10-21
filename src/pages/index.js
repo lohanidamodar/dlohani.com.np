@@ -8,6 +8,8 @@ import styles from './styles.module.css';
 import skills from '../data/skills';
 import socials from '../data/socials';
 import useThemeContext from '@theme/hooks/useThemeContext';
+import projects from '../data/projects';
+import Project from './projects/components/project';
 
 function Skill({ title, icon }) {
   const imgUrl = useBaseUrl(icon);
@@ -73,6 +75,16 @@ function Hero() {
   </header>);
 }
 
+function RecentProjects() {
+  return (
+    <section className={clsx(styles.section, 'padding-vert--xl padding-horiz--lg container')}>
+      <h2 className="text--center">Projects</h2>
+      <p className="text--center margin-bottom--lg">Some of my recent projects</p>
+      {projects.slice(0, 3).map((project, idx) => <Project key={idx} {...project} />)}
+    </section>
+  );
+}
+
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -97,7 +109,11 @@ function Home() {
           </section>
         )}
 
-        {CallToAction()}
+        {projects && projects.length > 0 && (
+          <RecentProjects />
+        )}
+
+        <CallToAction />
 
         {socials && socials.length > 0 && (
           <section className={clsx(styles.socials, styles.section)}>
