@@ -4,17 +4,17 @@ module.exports = {
   url: 'https://dlohani.com.np',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
   organizationName: 'lohanidamodar', // Usually your GitHub org/user name.
   projectName: 'dlohani.com.np', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Damodar Lohani',
       hideOnScroll: true,
-      /* logo: {
+      logo: {
         alt: 'Damodar Lohani',
         src: 'img/logo.svg',
-      }, */
+      },
       items: [
         /* {
           to: 'docs/',
@@ -74,7 +74,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Damodar Lohani`,
     },
     prism: {
-      additionalLanguages: ['dart','yaml'],
+      additionalLanguages: ['dart', 'yaml'],
     },
   },
   presets: [
