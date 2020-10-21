@@ -25,6 +25,12 @@ module.exports = {
         { to: 'projects', label: 'Projects', position: 'left' },
         { to: 'blog', label: 'Blog', position: 'left' },
         { to: 'contact', label: 'Contact', position: 'left' },
+        {
+          href: 'https://github.com/lohanidamodar',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+        },
       ],
     },
     footer: {
