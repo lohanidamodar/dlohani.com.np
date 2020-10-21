@@ -18,7 +18,7 @@ function Contact() {
                 </div>
             </header>
             <main>
-                // google forms embed
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf1imMuA15b38x5OGRznJ4kKK9jDZgUIkwmWCQOeRI8ollEMw/viewform?embedded=true" width="100%" height="1700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </main>
 
         </Layout>
