@@ -73,6 +73,9 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Damodar Lohani`,
     },
+    prism: {
+      additionalLanguages: ['dart','yaml'],
+    },
   },
   presets: [
     [
