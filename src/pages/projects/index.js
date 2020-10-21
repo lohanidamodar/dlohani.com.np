@@ -22,7 +22,7 @@ function Showcase() {
                     </div>
                 </div>
                 {projects && projects.length > 0 && (
-                    <div className="row">
+                    <div className="container">
                         {projects.map(project =>
                             (
                                 <Project {...project} />

@@ -71,7 +71,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Damodar Lohani, Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Damodar Lohani`,
     },
   },
   presets: [
