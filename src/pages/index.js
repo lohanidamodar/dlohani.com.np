@@ -34,7 +34,7 @@ function CallToAction() {
               'button button--outline button--primary button--lg',
               styles.getStarted,
             )}
-            to={useBaseUrl('contact')}>
+            to={useBaseUrl('projects')}>
             Check Out My Work
           </Link>
           <Link
