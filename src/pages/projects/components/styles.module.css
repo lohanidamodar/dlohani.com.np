@@ -1,0 +1,16 @@
+.links {
+    display: flex;
+    align-items: center;
+
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    color: white;
+    padding-right: 10px;
+}
+
+html[data-theme='dark'] .icon {
+    filter: invert(100%)
+}
