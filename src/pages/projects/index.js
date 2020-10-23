@@ -23,11 +23,15 @@ function Showcase() {
                 </div>
                 {projects && projects.length > 0 && (
                     <div className="container">
-                        {projects.map(project =>
-                            (
-                                <Project {...project} />
-                            )
-                        )}
+                        <div className="row">
+                            {projects.map(project =>
+                                (
+                                    <div className="col col--4">
+                                        <Project {...project} />
+                                    </div>
+                                )
+                            )}
+                        </div>
                     </div>
                 )}
             </main>
