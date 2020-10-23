@@ -8,6 +8,11 @@ module.exports = {
   organizationName: 'lohanidamodar', // Usually your GitHub org/user name.
   projectName: 'lohanidamodar.github.io', // Usually your repo name.
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'G-NR1FQ09LP2',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     navbar: {
       title: 'Damodar Lohani',
       hideOnScroll: true,
@@ -77,6 +82,7 @@ module.exports = {
       additionalLanguages: ['dart', 'yaml'],
     },
   },
+  plugins: ['@docusaurus/plugin-google-analytics'],
   presets: [
     [
       '@docusaurus/preset-classic',
