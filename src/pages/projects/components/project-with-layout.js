@@ -10,8 +10,8 @@ function ProjectWithLayout({ slug }) {
     const project = projects.find((p) => p.slug == slug);
     return (
         <Layout
-            title={`${project.title} | ${siteConfig.title}`}
-            description={project.description}>
+            title={`${project && project.title} | ${siteConfig.title}`}
+            description={project && project.description}>
             <main className="padding-top--lg">
                 <ProjectDetails {...project} />
             </main>
