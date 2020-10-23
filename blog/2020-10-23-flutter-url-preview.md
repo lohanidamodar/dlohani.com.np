@@ -60,7 +60,9 @@ FlutterLinkPreview(
 ```
 Default preview for URL "https://medium.com/@LohaniDamodar/flutter-recipes-2-firebase-firestore-recipes-2f09e58a7298" looked like
 
-<img src="img/blog/u1.png" />
+<center>
+    <img src="../img/blog/up2.png" height="480px" />
+</center>
 
 ## Complete customization
 Finally, if we want to completely customize how our preview looks, we can use the `builder` parameter, that gives us the information returned after parsing the url we provided and we build our own preview widget using the information provided.
@@ -149,7 +151,9 @@ FlutterLinkPreview(
 
 Custom preview for URL "https://medium.com/@LohaniDamodar/flutter-recipes-2-firebase-firestore-recipes-2f09e58a7298" looked like
 
-<img src="img/blog/u2.png" />
+<center>
+    <img src="../img/blog/up2.png" height="480px" />
+</center>
 
 
 As we can see from the code above, the information returned after parsing the URL can be of three different types `WebInfo` for normal web URLs, `WebImageInfo` for URLs of images and `WebVideoInfo` for the URLs of videos. We can us the type of information returned to display different preview and actions in our application.
