@@ -14,9 +14,9 @@ So, what is URL preview if you remember whenever you share some url in facebook 
 
 If you would rather watch a video
 
-<center>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/8c-EIwbNchw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+<div class="player">
+    <iframe src="https://www.youtube.com/embed/8c-EIwbNchw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 In flutter I found few different plugins to help display URL preview. However the one I liked "flutter_link_preview" provided the most customization possible. One thing to note that, I was unable to get preview of youtube URLs from any of the available plugins. However most of them worked fine with other URLs. So in this tutorial we will learn to use "flutter_link_preview" plugin to display the preview of URL in our Flutter application.
 The final source code for this tutorial can be found at my [Github repository](https://github.com/lohanidamodar/flutter_plugin_tuts/tree/link-preview).
