@@ -34,6 +34,7 @@ const projects = [
         tech: "Flutter, OpenTDB.com API",
         image: 'img/projects/opentrivia.png',
         github: 'https://github.com/lohanidamodar/flutter_opentrivia',
+        web: 'https://lohanidamodar.github.io/flutter_opentrivia/#/',
     },
     {
         title: "Khaja Express",
