@@ -82,7 +82,6 @@ module.exports = {
       additionalLanguages: ['dart', 'yaml'],
     },
   },
-  plugins: ['@docusaurus/plugin-google-analytics'],
   presets: [
     [
       '@docusaurus/preset-classic',
