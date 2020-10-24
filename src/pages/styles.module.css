@@ -14,6 +14,8 @@
 
 .heroBg {
   background-image: url('../data/hero-back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
 
 }
