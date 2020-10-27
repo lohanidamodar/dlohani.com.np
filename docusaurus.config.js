@@ -10,8 +10,6 @@ module.exports = {
   themeConfig: {
     googleAnalytics: {
       trackingID: 'G-NR1FQ09LP2',
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
     },
     navbar: {
       title: 'Damodar Lohani',
