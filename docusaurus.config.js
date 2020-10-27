@@ -8,9 +8,6 @@ module.exports = {
   organizationName: 'lohanidamodar', // Usually your GitHub org/user name.
   projectName: 'lohanidamodar.github.io', // Usually your repo name.
   themeConfig: {
-    googleAnalytics: {
-      trackingID: 'G-NR1FQ09LP2',
-    },
     navbar: {
       title: 'Damodar Lohani',
       hideOnScroll: true,
@@ -79,7 +76,15 @@ module.exports = {
     prism: {
       additionalLanguages: ['dart', 'yaml'],
     },
+    gtag: {
+      trackingID: 'G-NR1FQ09LP2',
+      anonymizeIP: true,
+    }
   },
+  plugins: [
+    require.resolve('@docusaurus/plugin-google-gtag'),
+
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
