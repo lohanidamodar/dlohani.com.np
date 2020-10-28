@@ -10,6 +10,8 @@ tags: [dart, singleton, design-pattern]
 ## Introduction
 Singleton is a design pattern and is one of the simplest ones. It is useful in the cases when we want only a single instance of any object in our application. In this tutorial we will learn about the singleton pattern in Dart and how we can create a singletons in Dart. So let's get started
 
+<!-- truncate -->
+
 ## What is singleton?
 - One of the simplest design pattern
 - There can only be one instance of the Class
