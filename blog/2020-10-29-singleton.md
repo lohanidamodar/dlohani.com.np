@@ -12,6 +12,12 @@ Singleton is a design pattern and is one of the simplest ones. It is useful in t
 
 <!-- truncate -->
 
+If you would rather watch a video
+
+<div class="player">
+    <iframe src="https://www.youtube.com/embed/f5bv8BVF1O8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## What is singleton?
 - One of the simplest design pattern
 - There can only be one instance of the Class
