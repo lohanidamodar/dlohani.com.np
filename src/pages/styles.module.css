@@ -58,3 +58,10 @@
   height: 200px;
   width: 200px;
 }
+
+.testimonialAvatar {
+  border: 4px solid black;
+}
+html[data-theme='dark'] .testimonialAvatar {
+  border: 4px solid white;
+}
