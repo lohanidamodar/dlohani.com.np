@@ -9,6 +9,7 @@ import skills from '../data/skills';
 import socials from '../data/socials';
 import useThemeContext from '@theme/hooks/useThemeContext';
 import projects from '../data/projects';
+import testimonials from '../data/testimonials';
 import Project from './projects/components/project';
 
 function Skill({ title, icon }) {
@@ -85,6 +86,28 @@ function RecentProjects() {
   );
 }
 
+function Testimonials() {
+  return (<section className={clsx(styles.section, 'padding-vert--xl padding-horiz--lg container')}>
+    <div className="row">
+      {testimonials.slice(0, 3).map((testimonial, idx) => <div className="col col--4">
+        <div class="avatar avatar--vertical">
+          {testimonial.image && <img
+            class={clsx(styles.testimonialAvatar,'avatar__photo avatar__photo--xl')}
+            src="https://scontent.fktm4-1.fna.fbcdn.net/v/t1.0-9/128997422_472262273835724_1499080244182624626_n.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_ohc=4Gyr42p9ESwAX-PDH7X&_nc_ht=scontent.fktm4-1.fna&oh=c9888f04a862d73c6af85d59daab4aa5&oe=5FFEE5D4"
+          />}
+          <div class="avatar__intro">
+            <h4 class="avatar__name">{testimonial.name}</h4>
+            <small class="avatar__subtitle">
+              {testimonial.position && testimonial.position} {testimonial.company}
+            </small>
+          </div>
+        </div>
+        <p className="padding-top--md text--center">{testimonial.testimonial}</p>
+      </div>)}
+    </div>
+  </section>)
+}
+
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -111,6 +134,10 @@ function Home() {
 
         {projects && projects.length > 0 && (
           <RecentProjects />
+        )}
+
+        {testimonials && testimonials.length > 0 && (
+          <Testimonials />
         )}
 
         <CallToAction />
