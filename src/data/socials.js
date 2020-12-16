@@ -24,6 +24,10 @@ const socials = [
         link: "https://www.youtube.com/c/reactbits"
     },
     {
+        label: "Patreon",
+        link: "https://www.patreon.com/join/Reactbits"
+    },
+    {
         label: "Email",
         link: "mailto:dlohani48@gmail.com"
     },

@@ -28,6 +28,23 @@ const projects = [
         appStore: 'https://apps.apple.com/np/app/flutter-ui-challenges/id1473537882',
     },
     {
+        title: "Dictionary App",
+        slug: "dictio",
+        description: "Open source dictionary application developed using owlbot.info API",
+        tech: "Flutter, owlbot.info API",
+        image: 'img/projects/dictio.png',
+        github: 'https://github.com/lohanidamodar/fl_dictio',
+    },
+    {
+        title: "Open Trivia",
+        slug: "open_trivia",
+        description: "Open source trivia Application developed using opentdb.com API.",
+        tech: "Flutter, OpenTDB.com API",
+        image: 'img/projects/opentrivia.png',
+        github: 'https://github.com/lohanidamodar/flutter_opentrivia',
+        web: 'https://lohanidamodar.github.io/flutter_opentrivia/#/',
+    },
+    {
         title: "Khaja Express",
         slug: "khaja_express",
         description: "Khaja Express is a food delivery service provider and we designed and developed its admin panel with reactjs and firebase and we also designed and developed the mobile application for both Android and iOS using Flutter.",

@@ -1,0 +1,43 @@
+.link:hover {
+    text-decoration: none;
+}
+
+.imageAndLinks {
+    display: flex;
+    align-items: flex-start;
+}
+.image {
+    width: 100%;
+    height: auto;
+}
+
+/* .vertical {
+    flex-direction: column;
+} */
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    color: white;
+    padding-right: 10px;
+}
+
+html[data-theme='dark'] .icon {
+    filter: invert(100%)
+}
+
+.iconsm {
+    width: 32px;
+    height: 32px;
+    color: white;
+    padding-right: 10px;
+}
+
+html[data-theme='dark'] .iconsm {
+    filter: invert(100%)
+}

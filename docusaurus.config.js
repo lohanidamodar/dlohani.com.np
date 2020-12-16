@@ -23,6 +23,7 @@ module.exports = {
           position: 'left',
         }, */
         { to: 'projects', label: 'Projects', position: 'left' },
+        { to: 'talks', label: 'Talks', position: 'left' },
         { to: 'blog', label: 'Blog', position: 'left' },
         { to: 'contact', label: 'Contact', position: 'left' },
         {
@@ -76,6 +77,10 @@ module.exports = {
     prism: {
       additionalLanguages: ['dart', 'yaml'],
     },
+    gtag: {
+      trackingID: 'G-NR1FQ09LP2',
+      anonymizeIP: true,
+    }
   },
   presets: [
     [
