@@ -8,8 +8,9 @@ author_image_url: https://avatars1.githubusercontent.com/u/6360216?s=460&u=ccf75
 tags: [appwrite, flutter]
 ---
 
-## Introduction
 Appwrite is an open source back-end server, that you can easily setup using docker. And it can be used to support your web and mobile applications. And, it is great for Flutter developers to have Appwrite in their toolbox, as this will give them alternative to Firebase, or building own service in back-end. This is unique opportunity for Flutter developers, as they can focus on their application rather than on setting up a remote database, API and stuff. So, in this ongoing tutorial series, we will learn to setup Appwrite and use it as a back-end for our flutter application.
+
+<!-- truncate -->
 
 ## [Update] Appwrite 0.7 is here
 Appwrite 0.7 has been released with awesome new features like Cloud Functions, Flutter Web support, Appwrite CLI and 100+ more features.
