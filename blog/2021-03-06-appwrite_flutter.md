@@ -129,8 +129,8 @@ The source code for the series can be found in the [Github repository](https://l
 
 
 ## Want to Connect with me
-Facebook: [https://fb.me/lohanidamodar](https://fb.me/lohanidamodar)
-GitHub: [https://github.com/lohanidamodar](https://github.com/lohanidamodar)
-YouTube: [https://youtube.com/c/reactbits](https://youtube.com/c/reactbits)
-Twitter: [https://twitter.com/LohaniDamodar](https://twitter.com/LohaniDamodar)
-Linked In: [https://www.linkedin.com/in/lohanidamodar](https://www.linkedin.com/in/lohanidamodar)
+- Facebook: [https://fb.me/lohanidamodar](https://fb.me/lohanidamodar)
+- GitHub: [https://github.com/lohanidamodar](https://github.com/lohanidamodar)
+- YouTube: [https://youtube.com/c/reactbits](https://youtube.com/c/reactbits)
+- Twitter: [https://twitter.com/LohaniDamodar](https://twitter.com/LohaniDamodar)
+- Linked In: [https://www.linkedin.com/in/lohanidamodar](https://www.linkedin.com/in/lohanidamodar)
