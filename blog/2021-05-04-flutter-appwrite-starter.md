@@ -11,8 +11,7 @@ tags: [appwrite, flutter]
 ## Introduction
 I'm planning to build a lot more applications with Flutter and Appwrite. If you are too, then this is for you. In this series we will build a Starter Template for our FlAppwrite Applications where we will implement some repeatitive tasks like Localization, State management, Authorization etc, that we do for each of our project. So that we can use this as a base template next time we want to create a new FlAppwrite Application.
 
-**Note** If you just want the code
-//github repository embed
+<!--truncate-->
 
 ## Episode 1
 In this part, we will setup basic flutter project, create login, signup pages and simple routes.
@@ -43,7 +42,7 @@ This is the final video on the series. In this series we will use user preferenc
 </div>
 
 ## Source Code
-{% github lohanidamodar/appwrite_starter %}
+https://github.com/lohanidamodar/appwrite_starter
 
 ## Want to Connect with me
 - Facebook: [https://fb.me/lohanidamodar](https://fb.me/lohanidamodar)
