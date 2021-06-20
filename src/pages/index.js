@@ -68,8 +68,8 @@ function Hero() {
               styles.getStarted,
             )}
             to={useBaseUrl('contact')}>
-            Let's Work Together
-      </Link>
+            Let's Connect
+          </Link>
         </div>
       </div>
     </div>

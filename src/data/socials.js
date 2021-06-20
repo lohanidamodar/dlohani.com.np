@@ -24,8 +24,8 @@ const socials = [
         link: "https://www.youtube.com/c/reactbits"
     },
     {
-        label: "Patreon",
-        link: "https://www.patreon.com/join/Reactbits"
+        label: "Youtube Nepali",
+        link: "https://youtube.com/channel/UCyMoNc0q-SSTp-jP8ZoXJAg"
     },
     {
         label: "Email",
