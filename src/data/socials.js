@@ -27,10 +27,6 @@ const socials = [
         label: "Youtube Nepali",
         link: "https://youtube.com/channel/UCyMoNc0q-SSTp-jP8ZoXJAg"
     },
-    {
-        label: "Email",
-        link: "mailto:dlohani48@gmail.com"
-    },
 ]
 
 export default socials;
