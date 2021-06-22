@@ -32,7 +32,7 @@ Many of you requested to create a basics Flutter tutorial series in Nepali langu
 15. Accessing Camera
 16. **More yet to work on...**
 
-## Introduction
+## 1. Introduction
 
 In this first video we introduce the the series, what we will be learning and what are the pre-requisites to begin with the tutorial
 
@@ -40,7 +40,7 @@ In this first video we introduce the the series, what we will be learning and wh
     <iframe src="https://www.youtube.com/embed/98pFJiRDU2Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## What is Flutter?
+## 2. What is Flutter?
 
 In this video we discuss what Flutter is and why we would want to learn Flutter in 2021.
 
@@ -48,7 +48,7 @@ In this video we discuss what Flutter is and why we would want to learn Flutter 
     <iframe src="https://www.youtube.com/embed/5Xn9seul6SM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Namaste Flutter
+## 3. Namaste Flutter
 
 In this video we create our first Flutter video and look at the various files and folders that comes with it. We will look at platform folders and why they are required. We will also build and run our Application and try to understand in brief how it works.
 
