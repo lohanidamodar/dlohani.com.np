@@ -56,6 +56,48 @@ In this video we create our first Flutter video and look at the various files an
     <iframe src="https://www.youtube.com/embed/QyJSEg-p6jo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+## 4. Widgets and More Widgets
+
+We will explore more about widgets, and look at the docs from where we can learn more about such widgets. Learn to use widget catalog and widget index.
+
+<div class="player">
+    <iframe src="https://www.youtube.com/embed/85y8-E06de0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## 5. Widgets in Action
+
+Let's put the widgets in Action and build our first layout.
+
+<div class="player">
+    <iframe src="https://www.youtube.com/embed/mP7-NpTrEcc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## 6. Application Scaffold
+
+Building an App's frame, with various capabilities like navigation, hardware button handling, theming and lot more.
+
+We will learn about MaterialApp, WidgetsApp, CupertinoApp, Scaffold and many other Material widgets
+
+<div class="player">
+    <iframe src="https://www.youtube.com/embed/GuMuXtKychc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## 7. Basics of Navigation
+
+Learn the basics of navigation in Flutter by setting up multiple page and navigating back and forth between them
+
+<div class="player">
+    <iframe src="https://www.youtube.com/embed/pJLRvecRfEQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## 8. Alerts and Dialogs
+
+Learn the basics of navigation in Flutter by setting up multiple page and navigating back and forth between them
+
+<div class="player">
+    <iframe src="https://www.youtube.com/embed/-5C5ak7l6ZU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 **More coming soon**
 
 ## Source Code
