@@ -38,4 +38,5 @@ Though, I was afraid in the beginning as this was the first time doing something
 
 ## Conclusion
 
+Appwrite now has become a go to software for my Flutter projects as I really love it. Working inside Appwrite added to it as I could see where it was headed and whether or not it would be good for my long running projects. Now I'm using Appwrite for my Flutter applications that are soon going to production.
 So, what's the point of writing this. First, even though the task looks very difficult, you will not know the actual difficulty until you start. And for most of the tasks, it's true that it's easier that it looks. You only need courage to start. Once you start, it's easy and following the momentum most of the time leads to success. Secondly, if you have a team that supports and motivates you, nothing is impossible. You just have to believe in yourself. So, whatever tasks you have left out there, thinking it's difficult or you may not achieve it. Just start it and let the momentum take you forward. Just keep working small steps every day and you shall reach success sooner than you expected.
