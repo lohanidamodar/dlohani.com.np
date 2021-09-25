@@ -1,10 +1,10 @@
 ---
 slug: getting-a-perfect-score-on-pub-dot-dev
 title: Getting a Perfect Score on Pub.dev for Dart and Flutter SDK of Appwrite
-author: Damodar Lohani
-author_title: Web and Mobile Developer
-author_url: https://github.com/lohanidamodar
-author_image_url: https://avatars1.githubusercontent.com/u/6360216?s=460&u=ccf757cc3aece5b674460c4909b4a77e1d5b6a19&v=4
+# author: Damodar Lohani
+# author_title: Web and Mobile Developer
+# author_url: https://github.com/lohanidamodar
+# author_image_url: https://avatars1.githubusercontent.com/u/6360216?s=460&u=ccf757cc3aece5b674460c4909b4a77e1d5b6a19&v=4
 tags: [flutter, appwrite]
 ---
 
