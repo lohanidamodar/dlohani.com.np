@@ -1,11 +1,11 @@
 ---
 slug: very-simple-introduction-to-git-and-github
 title: A very simple introduction to Git and GitHub
-author: Damodar Lohani
-author_title: Web and Mobile Developer
-author_url: https://github.com/lohanidamodar
-author_image_url: https://avatars1.githubusercontent.com/u/6360216?s=460&u=ccf757cc3aece5b674460c4909b4a77e1d5b6a19&v=4
-tags: [flutter, nepali]
+# author: Damodar Lohani
+# author_title: Web and Mobile Developer
+# author_url: https://github.com/lohanidamodar
+# author_image_url: https://avatars1.githubusercontent.com/u/6360216?s=460&u=ccf757cc3aece5b674460c4909b4a77e1d5b6a19&v=4
+tags: [git, github]
 ---
 
 If you are a developer or planning to become a developer, you not only need to learn to code, but also learn some more tools and trades in the industry. One of those tools is the Git and GitHub. In this article we will learn about Git and GitHub. This is targeted towards someone who has little to no knowledge of Git and GitHub. To properly understand the concepts and follow the tutorial you will need to have the basic concepts of your operating system, files, directories and some basics of command line.
@@ -55,6 +55,38 @@ git init
 ```
 
 Here we go, we ran our first git command 👏. The init command initializes a new git repository on whichever directory it is ran.
+
+### First commit
+
+Now that we have a git repository, we can make changes and record the version history of our changes. So let's start by creating a new file. Inside our `first_git_repo` let us create a new text file and name it `readme.md`. You can do this using your favorite text editor. Let us now open the file in our text editor and there type some information as the following and save the file.
+
+```md
+# Our First Git Project
+
+This is our first git project. And we are making our first commit.
+```
+
+Now in order to record our change, we need to commit it. As stated earlier it has two steps, staging and committing. So let's do it. From our command line, navigate to our project folder and first run the following command to stage the change.
+
+```bash
+git add readme.md
+```
+
+This command will stage the changes made in `readme.md` file ready to commit. We can stage multiple files to be committed in a single commit. Now in order to record the change, let's run the following command
+
+```bash
+git commit -m "first commit"
+```
+
+We did it. We, committed our first change 👏. We can continue to make change and commit.
+
+### Assignment
+
+Add few more lines to the `readme.md` and create another commit.
+
+### Creating a repo in GitHub
+
+Login to GitHub and click on the plus icon at the top navigation and in the drop down select **New repository**.
 
 ## References
 
