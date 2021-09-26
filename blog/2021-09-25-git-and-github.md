@@ -12,16 +12,6 @@ If you are a developer or planning to become a developer, you not only need to l
 
 <!-- truncate -->
 
-In this article we will learn the following concepts.
-
-1. What is Git?
-2. Why do we need Git?
-3. What is GitHub?
-4. Why do we need GitHub?
-5. Getting started with Git
-6. Getting started with GitHub
-7. Basic Git Commands
-
 ## What is Git?
 
 So what is Git? Git is a distributed version control system. Sounds like something huge right? Once you start learning and understanding the basics, git is very simple and very useful. Git is a crucial software in modern day information technology world to maintain a healthy codebase for all kinds of IT resources. So to understand git, let us understand what version and version control means. When you have a document in certain state and you make a modification to it, you get a new version of your document. If you later want to go back to later state, you need to save a backup of the old version before the modification. This is where the version control system comes in. With version control, we can keep a copy of as many versions of our documents. Keep making modifications and roll back to any version of the document at any time. So in version control all you do is, you have a document, you edit and save. And again, you edit and save. This goes on until you are satisfied or you roll back to pervious version. Git helps us track the changes we make to our files, so we have a history of changes. Git also allows collaboration easier as it allows merging changes from multiple people into one source. 
@@ -78,7 +68,7 @@ This command will stage the changes made in `readme.md` file ready to commit. We
 git commit -m "first commit"
 ```
 
-We did it. We, committed our first change 👏. We can continue to make change and commit.
+We did it. We, committed our first change 👏. Each commit needs a commit message telling what change we made. It's like a title given to our commit history. We can continue to make change and commit.
 
 ### Assignment
 
@@ -86,7 +76,27 @@ Add few more lines to the `readme.md` and create another commit.
 
 ### Creating a repo in GitHub
 
-Login to GitHub and click on the plus icon at the top navigation and in the drop down select **New repository**.
+Login to GitHub and click on the plus icon at the top navigation and in the drop down select **New repository**. In the repository name text box, type **first_git_repo**. Below you can see more options like whether to make the repository public (accessible to everyone) or private (accessible to only account owner). Finally press on the **Create repository** button at the bottom. This will create a project and we will be redirected to the newly created repository page.
+
+### Adding remote
+
+Once we have a repository in GitHub, we need to link our local git repository to the GitHub repository we just created. This is the process of adding remote. In order to add remote we use the following command, still in our project directory in command line
+
+```bash
+git remote add origin git@github.com:<username>/<repo_name>
+```
+
+Here, we are using the `remote` sub command to add new remote named `origin` and link of the repository we just created. We can get the link from the repository page we were navigated to in the previous step. We are using SSH based URL as GitHub has stopped username/password based authentication. For this we need to setup SSH access to GitHub. You the [official documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh) to setup SSH access.
+
+### Pushing Local Changes
+
+Once we have linked the local and the remote repository, we can push our local changes. We can do that simply by running following command
+
+```bash
+git push origin <main_branch>
+```
+
+Here, we are pushing our local changes to the remote we just added above, we named the remote origin so we are pushing to origin. We could add multiple remotes each with different name and push to different remote repositories. The main branch used to be master, and might be main.
 
 ## References
 
