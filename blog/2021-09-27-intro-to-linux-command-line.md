@@ -175,3 +175,7 @@ $ less /path/to/text/file.txt
 ```
 
 This will display the contents of the text file. If the content doesn't fit on the terminal screen, we can use the *space* to move forward and *b* to move backwards. We can then use the **q** key to exit the less and get back to the terminal. We can also use **-N** flag to enable the display of line numbers while viewing the text file.
+
+## References
+
+- <https://www.youtube.com/watch?v=2PGnYjbYuUo>
