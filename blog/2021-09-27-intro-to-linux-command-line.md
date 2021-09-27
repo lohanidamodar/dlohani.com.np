@@ -166,5 +166,12 @@ This will display the contents of */home/dl* instead of current directory.
 
 > **Note**: To learn more about any command you can use the **man** command we discussed above
 
+### Less
 
+The **less** command is used to view the contents of a text file.
 
+```bash
+$ less /path/to/text/file.txt
+```
+
+This will display the contents of the text file. If the content doesn't fit on the terminal screen, we can use the *space* to move forward and *b* to move backwards. We can then use the **q** key to exit the less and get back to the terminal. We can also use **-N** flag to enable the display of line numbers while viewing the text file.
