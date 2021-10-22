@@ -98,6 +98,38 @@ Learn the basics of navigation in Flutter by setting up multiple page and naviga
     <iframe src="https://www.youtube.com/embed/-5C5ak7l6ZU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+## 9. Scrollable Views
+
+Learn the basics of scrollable views like ListView and how to use them to display content that don't fit on screen.
+
+<div class="player">
+    <iframe src="https://www.youtube.com/embed/_oMF0nKbZ3A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## 10. Introduction to Stateful Widgets
+
+Learn what stateful widgets are, why to use them and how to use them in your application with live coding.
+
+<div class="player">
+    <iframe src="https://www.youtube.com/embed/JQvPTebGz0E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## 11. Adding Custom Fonts and Images to Flutter
+
+Learn how to add custom fonts and images to your Flutter application and how to use them.
+
+<div class="player">
+    <iframe src="https://www.youtube.com/embed/8DTxgxW0AYw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## 12. Themes
+
+Learn how to customize your Flutter app using themes. Understand how you can make consistent looking UIs across application using themes.
+
+<div class="player">
+    <iframe src="https://www.youtube.com/embed/uzTUzOlpTuY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 **More coming soon**
 
 ## Source Code
