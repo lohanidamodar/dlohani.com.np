@@ -4,7 +4,7 @@ title: Introduction to Linux Command Line
 tags: [flutter, nepali]
 ---
 
-Linux is famos for its command line. Everything can be done with the help of commands, which makes it very easy to automate things by writing a script that combines these commands to carry out multiple actions. This makes linux very essential for developers, security analysts, data analysts or anyone in technology field. So in this article we will learn the basics of linux command line. To continue with this you will need to access to a unix system. These commands work on macos terminals, Windows Subsystem Linux terminals and any linux distribution terminals. So Let's get started.
+Linux is famous for its command line. Everything can be done with the help of commands, which makes it very easy to automate things by writing a script that combines these commands to carry out multiple actions. This makes linux very essential for developers, security analysts, data analysts or anyone in technology field. So in this article we will learn the basics of linux command line. To continue with this you will need to access to a unix system. These commands work on macos terminals, Windows Subsystem Linux terminals and any linux distribution terminals. So Let's get started.
 
 <!-- truncate -->
 
@@ -176,6 +176,8 @@ $ less /path/to/text/file.txt
 
 This will display the contents of the text file. If the content doesn't fit on the terminal screen, we can use the *space* to move forward and *b* to move backwards. We can then use the **q** key to exit the less and get back to the terminal. We can also use **-N** flag to enable the display of line numbers while viewing the text file.
 
+In this article we learned the basics of Linux command line. We will have more articles to cover more on Linux and linux command line. I hope you enjoyed this article. Thank you 🙏
+
 ## References
 
-- <https://www.youtube.com/watch?v=2PGnYjbYuUo>
+- [Linux Command Line Full Course](https://www.youtube.com/watch?v=2PGnYjbYuUo)
