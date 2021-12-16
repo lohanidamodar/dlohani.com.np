@@ -5,10 +5,12 @@ title: Understanding BuildContext in Flutter
 # author_title: Web and Mobile Developer
 # author_url: https://github.com/lohanidamodar
 # author_image_url: https://avatars1.githubusercontent.com/u/6360216?s=460&u=ccf757cc3aece5b674460c4909b4a77e1d5b6a19&v=4
-tags: [flutter, nepali]
+tags: [flutter]
 ---
 
 If you have been learning Flutter, you have seen BuildContext everywhere. BuildContext is an important concept in Flutter most developers find hard to understand. Many of even seasoned developers don't fully understand what BuildContext is and what it does. Yet it's basic and must know for every Flutter developers. Today in this article we will try to understand what BuildContext is and why it is important. Before we understand BuildContext, we must understand widget and widget tree. So let's dive into that.
+
+<!-- truncate -->
 
 ## Widget Tree
 
