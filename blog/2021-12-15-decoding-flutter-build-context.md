@@ -10,6 +10,8 @@ tags: [flutter, nepali]
 
 If you have been learning Flutter, you have seen BuildContext everywhere. BuildContext is an important concept in Flutter most developers find hard to understand. Many of even seasoned developers don't fully understand what BuildContext is and what it does. Yet it's basic and must know for every Flutter developers. Today in this article we will try to understand what BuildContext is and why it is important. Before we understand BuildContext, we must understand widget and widget tree. So let's dive into that.
 
+<!-- truncate -->
+
 ## Widget Tree
 
 In Flutter everything is a widget. Container, text, button, providers everything is virtually a widget. Also, a parent widgets can have one or more child widgets. Flutter applications consists of stack of widgets popularly known as the **widget tree**. In the widget tree we connect parent and child widgets to show their relationship.
