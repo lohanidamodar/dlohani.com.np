@@ -178,6 +178,6 @@ This will display the contents of the text file. If the content doesn't fit on t
 
 In this article we learned the basics of Linux command line. We will have more articles to cover more on Linux and linux command line. I hope you enjoyed this article. Thank you 🙏
 
-## References
+<!-- ## References
 
-- [Linux Command Line Full Course](https://www.youtube.com/watch?v=2PGnYjbYuUo)
+- [Linux Command Line Full Course](https://www.youtube.com/watch?v=2PGnYjbYuUo) -->
