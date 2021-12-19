@@ -69,8 +69,9 @@ So from this, as every widget in widget tree is created by build method, and the
 Also, note that the widgets are only visible to their own BuildContext or to the BuildContext of their parent. That is wy, we can locate the parent widget from a child widget using `findAncestorWidgetOfExactType` helper method from BuildContext. This method is used to locate a widget of particular type in the widget tree. Going up the widget tree from whichever widget it was called, this method will try to locate the first widget that matches the type passed to the method.
 
 For example, we have a tree `MyApp-> Scaffold -> Row -> Container -> Row -> Text`. And we call the following method from the `Text` widget.
-```
-context.findAncestorWidgetOfExactType(Row)
+
+```dart
+context.findAncestorWidgetOfExactType<Row>()
 ```
 This will traverse up the tree starting from `Text` widget and stopping when a widget of type `Row` is located. So, the Row between `Text` and `Container` will be returned. Next time you are using `Navigator.of(context)` or `Scaffold.of(context)` remember these are just helper method that use `context.findAncestorWidgetOfExactType` to find the nearest `NavigatorState` or `ScaffoldState` respectively.
 

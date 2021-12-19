@@ -1,7 +1,7 @@
 ---
 slug: intro-to-linux-command-line
 title: Introduction to Linux Command Line
-tags: [flutter, nepali]
+tags: [linux, command-line]
 ---
 
 Linux is famous for its command line. Everything can be done with the help of commands, which makes it very easy to automate things by writing a script that combines these commands to carry out multiple actions. This makes linux very essential for developers, security analysts, data analysts or anyone in technology field. So in this article we will learn the basics of linux command line. To continue with this you will need to access to a unix system. These commands work on macos terminals, Windows Subsystem Linux terminals and any linux distribution terminals. So Let's get started.
