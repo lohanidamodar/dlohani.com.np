@@ -77,10 +77,6 @@ module.exports = {
     prism: {
       additionalLanguages: ['dart', 'yaml'],
     },
-    gtag: {
-      trackingID: 'G-NR1FQ09LP2',
-      anonymizeIP: true,
-    }
   },
   presets: [
     [
@@ -95,6 +91,10 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-NR1FQ09LP2',
+          anonymizeIP: true,
+        }
       },
     ],
   ],

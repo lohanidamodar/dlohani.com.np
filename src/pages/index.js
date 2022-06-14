@@ -7,7 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import skills from '../data/skills';
 import socials from '../data/socials';
-import useThemeContext from '@theme/hooks/useThemeContext';
 import projects from '../data/projects';
 import testimonials from '../data/testimonials';
 import Project from './projects/components/project';
@@ -55,7 +54,6 @@ function CallToAction() {
 function Hero() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
-  const { isDarkTheme } = useThemeContext();
   return (<header className={clsx('hero hero--secondary', styles.heroBanner, styles.heroBg)}>
     <div className="overlay">
       <div className="container--fluid">
