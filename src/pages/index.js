@@ -35,7 +35,7 @@ function CallToAction() {
               styles.getStarted,
             )}
             to={useBaseUrl('projects')}>
-            Check Out My Work
+            Checkout My Blog
           </Link>
           <Link
             className={clsx(
@@ -43,7 +43,7 @@ function CallToAction() {
               styles.getStarted,
             )}
             to={useBaseUrl('contact')}>
-            Shoot Me a Message
+            Schedule a Meeting
           </Link>
         </p>
       </div>
@@ -66,7 +66,7 @@ function Hero() {
               styles.getStarted,
             )}
             to={useBaseUrl('contact')}>
-            Let's Connect
+            Schedule a Call
           </Link>
         </div>
       </div>
@@ -113,11 +113,16 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`${siteConfig.title} | Web and Mobile Developer`}
+      title={`${siteConfig.title} | ${siteConfig.tagline}r`}
       description="Description will go into a meta tag in <head />">
       <Hero />
       <main>
-
+        <section className={clsx('bg--primary', styles.intro, styles.section)}>
+          <div className="container">
+            <h2>Why Do You Need a Tech Consultant?</h2>
+            <p>World of tech is challenging, may it be a career choice or it is a decision to build new application. Choosing the right technology, following the right patterns and architecture can be difficult. This is where I come, with my 10+ years of experience in self learning, building small and large projects. I can help you in planning your career in tech. I can guide you with proper tech stack and architecture while getting started with your application and I can guide you when you get stuck during development of your project.</p>
+          </div>
+        </section>
         {skills && skills.length > 0 && (
           <section className={clsx(styles.skills, styles.section)}>
             <div className="container text--center">
@@ -132,13 +137,13 @@ function Home() {
           </section>
         )}
 
-        {projects && projects.length > 0 && (
+        {/* {projects && projects.length > 0 && (
           <RecentProjects />
-        )}
+        )} */}
 
-        {testimonials && testimonials.length > 0 && (
+        {/* {testimonials && testimonials.length > 0 && (
           <Testimonials />
-        )}
+        )} */}
 
         <CallToAction />
 

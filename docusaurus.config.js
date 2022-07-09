@@ -1,12 +1,12 @@
 module.exports = {
   title: 'Damodar Lohani',
-  tagline: 'Mobile and Web Developer',
+  tagline: 'Mentor, Trainer & Tech Consultant',
   url: 'https://dlohani.com.np',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/logo.svg',
-  organizationName: 'lohanidamodar', // Usually your GitHub org/user name.
-  projectName: 'lohanidamodar.github.io', // Usually your repo name.
+  organizationName: 'lohanidamodar',
+  projectName: 'lohanidamodar.github.io',
   themeConfig: {
     navbar: {
       title: 'Damodar Lohani',
@@ -16,12 +16,6 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        /* {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        }, */
         { to: 'projects', label: 'Projects', position: 'left' },
         { to: 'talks', label: 'Talks', position: 'left' },
         { to: 'blog', label: 'Blog', position: 'left' },

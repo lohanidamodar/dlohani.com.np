@@ -65,3 +65,7 @@
 html[data-theme='dark'] .testimonialAvatar {
   border: 4px solid white;
 }
+
+.intro {
+  padding: 4rem 0;
+}
