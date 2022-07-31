@@ -1,0 +1,13 @@
+---
+slug: is-flutter-best-choice-for-your-next-web-project
+title: Is Flutter the Best Choice for Your Next Web Project?
+# author: Damodar Lohani
+# author_title: Web and Mobile Developer
+# author_url: https://github.com/lohanidamodar
+# author_image_url: https://avatars1.githubusercontent.com/u/6360216?s=460&u=ccf757cc3aece5b674460c4909b4a77e1d5b6a19&v=4
+tags: [flutter]
+---
+
+Flutter has been on of the rapidly growing technology in past few years. It's been touching every platform. With that now Flutter stabely builds for 6 different platforms including Web. However, the question emerges is Flutter the best choice for your application? Specially for Web applications, people still are not able to decide whether or not to use Flutter. In this article we will dive in deep to Flutter web in a way to figure out what kinds of web projects are most suitable to build with Flutter and what not yet to build with Flutter. Let's get started.
+
+<!-- truncate -->

@@ -10,6 +10,7 @@ import socials from '../data/socials';
 import projects from '../data/projects';
 import testimonials from '../data/testimonials';
 import Project from './projects/components/project';
+import BlogOne from '../featured/why-flutter.mdx';
 
 function Skill({ title, icon }) {
   const imgUrl = useBaseUrl(icon);
@@ -126,8 +127,8 @@ function Home() {
         {skills && skills.length > 0 && (
           <section className={clsx(styles.skills, styles.section)}>
             <div className="container text--center">
-              <h2>Skills</h2>
-              <p>Over 8 years of development experience using these platforms, frameworks and languages</p>
+              <h2>Why Hire Me?</h2>
+              <p>I've been in the technology field for over 10 years now. I was heavely interested and always learning even befor that. I have been working with wide range of clients for varieties of projects using tons of different technologies, platforms, frameworks and languages. I love to figure out best solution the problem and best technology to use to solve the problem. I'm always experimenting with various technologies and always learning.</p>
               <div className="row row--align-center">
                 {skills.map((props, idx) => (
                   <Skill key={idx} {...props} />
@@ -136,6 +137,21 @@ function Home() {
             </div>
           </section>
         )}
+
+        <section className={clsx(styles.section, 'bg--primary')}>
+          <div className="container padding-vert--xl">
+            <div className="row">
+              <div className="col col--6">
+                <BlogOne />
+              </div>
+              <div className="col col--6">
+                <BlogOne />
+              </div>
+            </div>
+          </div>
+
+        </section>
+
 
         {/* {projects && projects.length > 0 && (
           <RecentProjects />
