@@ -12,6 +12,9 @@ const config = {
   favicon: 'img/logo.svg',
   organizationName: 'lohanidamodar',
   projectName: 'lohanidamodar.github.io',
+  customFields: {
+    calendly: 'https://calendly.com/lohanidamodar',
+  },
 
   i18n: {
     defaultLocale: 'en',

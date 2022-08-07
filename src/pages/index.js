@@ -4,6 +4,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import MDXContent from '@theme/MDXContent';
 import styles from './styles.module.css';
 import skills from '../data/skills';
 import socials from '../data/socials';
@@ -11,6 +12,7 @@ import projects from '../data/projects';
 import testimonials from '../data/testimonials';
 import Project from './projects/components/project';
 import BlogOne from '../featured/why-flutter.mdx';
+import BlogTwo from '../featured/is-flutter-best-for-your-web-project.mdx';
 
 function Skill({ title, icon }) {
   const imgUrl = useBaseUrl(icon);
@@ -61,14 +63,15 @@ function Hero() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
+          <a
             className={clsx(
               'button button--primary button--lg',
               styles.getStarted,
             )}
-            to={useBaseUrl('contact')}>
+            target="_blank"
+            href={siteConfig.customFields.calendly}>
             Schedule a Call
-          </Link>
+          </a>
         </div>
       </div>
     </div>
@@ -121,14 +124,14 @@ function Home() {
         <section className={clsx('bg--primary', styles.intro, styles.section)}>
           <div className="container">
             <h2>Why Do You Need a Tech Consultant?</h2>
-            <p>World of tech is challenging, may it be a career choice or it is a decision to build new application. Choosing the right technology, following the right patterns and architecture can be difficult. This is where I come, with my 10+ years of experience in self learning, building small and large projects. I can help you in planning your career in tech. I can guide you with proper tech stack and architecture while getting started with your application and I can guide you when you get stuck during development of your project.</p>
+            <p>The world of tech is challenging. May it be a career choice or a decision to build a new application. Choosing the right technology and following the correct patterns and architecture can be difficult. This is where I come, with my 10+ years of experience in self-learning and building small to large projects. I can help you in planning your career in tech. I can guide you with the proper tech stack and architecture while getting started with your application, and I can guide you when you get stuck during the development of your project.</p>
           </div>
         </section>
         {skills && skills.length > 0 && (
           <section className={clsx(styles.skills, styles.section)}>
             <div className="container text--center">
               <h2>Why Hire Me?</h2>
-              <p>I've been in the technology field for over 10 years now. I was heavely interested and always learning even befor that. I have been working with wide range of clients for varieties of projects using tons of different technologies, platforms, frameworks and languages. I love to figure out best solution the problem and best technology to use to solve the problem. I'm always experimenting with various technologies and always learning.</p>
+              <p>I've been in the technology field for over ten years now. I was heavily interested and continuously learning even before that. I have worked with clients on various projects using multiple technologies, platforms, frameworks, and languages. I love to figure out the best solution to the problem and the best technology to use to solve the problem. I'm always experimenting with various technologies and always learning.</p>
               <div className="row row--align-center">
                 {skills.map((props, idx) => (
                   <Skill key={idx} {...props} />
@@ -145,7 +148,9 @@ function Home() {
                 <BlogOne />
               </div>
               <div className="col col--6">
-                <BlogOne />
+                <MDXContent>
+                <BlogTwo />
+                </MDXContent>
               </div>
             </div>
           </div>
