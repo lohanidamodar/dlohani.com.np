@@ -32,9 +32,11 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          { to: 'blog', label: 'Blog', position: 'left' },
-          { to: 'talks', label: 'Talks', position: 'left' },
-          { to: 'contact', label: 'Contact', position: 'left' },
+          { to: '/', activeBaseRegex: '\/$', label: 'Home', position: 'right'},
+          { to: 'blog', label: 'Blog', position: 'right' },
+          { to: 'talks', label: 'Talks', position: 'right' },
+          { to: 'contact', label: 'Contact', position: 'right' },
+          { to: 'book', label: 'Book Now', position: 'right'},
           {
             href: 'https://github.com/lohanidamodar',
             position: 'right',
