@@ -25,7 +25,7 @@ function Home() {
       <main>
         <section className={clsx('bg--primary', styles.intro, styles.section)}>
           <div className="container">
-            <h2>Why Do You Need a Tech Consultant?</h2>
+            <h2>Do You Need a Tech Consultant?</h2>
             <p>The world of tech is challenging. May it be a career choice or a decision to build a new application. Choosing the right technology and following the correct patterns and architecture can be difficult. This is where I come, with my 10+ years of experience in self-learning and building small to large projects. I can help you in planning your career in tech. I can guide you with the proper tech stack and architecture while getting started with your application, and I can guide you when you get stuck during the development of your project.</p>
           </div>
         </section>
@@ -45,11 +45,8 @@ function Home() {
 
         <section className={clsx(styles.section, 'bg--primary')}>
           <div className="container padding-vert--xl">
-            <div className="row">
-              <div className="col col--6">
-                <BlogOne />
-              </div>
-              <div className="col col--6">
+            <div className="row row--align-center">
+              <div className="col col--6 text--justify">
                 <MDXContent>
                   <BlogTwo />
                 </MDXContent>
