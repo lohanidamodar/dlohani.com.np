@@ -6,7 +6,7 @@ import MDXContent from '@theme/MDXContent';
 import styles from './styles.module.css';
 import skills from '../data/skills';
 import BlogOne from '../featured/why-flutter.mdx';
-import BlogTwo from '../featured/is-flutter-best-for-your-web-project.mdx';
+import BlogTwo from '../featured/should-you-choose-flutter.mdx';
 import Clients from './_components/clients';
 import Socials from './_components/socials';
 import Hero from './_components/hero';
