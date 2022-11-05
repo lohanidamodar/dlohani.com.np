@@ -89,6 +89,11 @@ html[data-theme='dark'] .testimonialAvatar {
   margin-right: 20px;
 }
 
+.bookImage {
+  max-height: 250px;
+  margin-left: auto;
+}
+
 @media screen and (max-width: 600px) {
   .clients {
     flex-direction: column;

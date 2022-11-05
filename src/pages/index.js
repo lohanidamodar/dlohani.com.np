@@ -12,6 +12,7 @@ import Socials from './_components/socials';
 import Hero from './_components/hero';
 import Skill from './_components/skills';
 import CallToAction from './_components/call_to_action'
+import TakingFlutterToWeb from './_components/taking_flutter_to_web';
 
 
 function Home() {
@@ -43,6 +44,8 @@ function Home() {
           </section>
         )}
 
+        <TakingFlutterToWeb />
+
         <section className={clsx(styles.section, 'bg--primary')}>
           <div className="container padding-vert--xl">
             <div className="row row--align-center">
@@ -53,7 +56,6 @@ function Home() {
               </div>
             </div>
           </div>
-
         </section>
 
         <Clients />
