@@ -24,7 +24,7 @@ Let me start with failures to tell you that everybody fails, and the important t
 - Enrolled in Software Project management course in Coursera but was not able to complete it
 - Failed to get VISA in time and could not attend the [Flutter Vikings](https://fluttervikings.com/) conference.
 
-## Learnings
+## Learning
 
 Learning is a never-ending journey of life. If we want to be happy, we have to keep learning and progressing. I believe progress is the only thing that keeps us happy.
 
@@ -61,7 +61,7 @@ Learning is a never-ending journey of life. If we want to be happy, we have to k
 This year I started my Travel journey in September 2022 and took my first-ever international Flight to Oslo, Norway.
 
 - First international travel to Europe, I entered Oslo, Norway, and met my favorite Flutter community members, [Majid](https://twitter.com/mhadaily) and [Sarah](https://twitter.com/FullmerS). Then I took a flight to Amsterdam and visited the city also met with my colleague from Appwrite, [Sara](https://twitter.com/sara_k_48). Finally, took a train to Paris, met with my Friend Adish and visited Paris city and returned in a week.
-- Received an invitation to Google’s SAF Summit in Dubai, where I got the opportunity to meet Googlers and GDE as well as GDG organizers from Srilanka, Pakistan, Bangladesh, and Taiwan. As a part of this, I visited Dubai Media City for the first time.
+- Received an invitation to Google’s SAF Summit in Dubai, where I got the opportunity to meet Googlers and GDE as well as GDG organizers from Srilanka, Pakistan, Bangladesh, and Turkey. As a part of this, I visited Dubai Media City for the first time.
 - On November 2022, I plan to visit Bangalore and attend [FlutterConf India](https://flutterconf.in).
 
 Apart from my work, content, and community contributions, I also treasure my time with friends and family. This year, I spent many hours with my family, my son and my daughter. They give meaning to my life and make me happy.
