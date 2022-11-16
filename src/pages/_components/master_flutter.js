@@ -21,6 +21,16 @@ function TakingFlutterToWeb() {
                                     styles.getStarted,
                                 )}
                                 target="_blank"
+                                href="https://flutter.appwriters.dev">
+                                Learn more
+                            </a>
+                            &nbsp;
+                            <a
+                                className={clsx(
+                                    'button button--outline button--primary button--md',
+                                    styles.getStarted,
+                                )}
+                                target="_blank"
                                 href="https://flutter.appwriters.dev/subscribe">
                                 Get Early Access
                             </a>
