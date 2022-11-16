@@ -5,7 +5,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import MDXContent from '@theme/MDXContent';
 import styles from './styles.module.css';
 import skills from '../data/skills';
-import BlogOne from '../featured/why-flutter.mdx';
 import BlogTwo from '../featured/should-you-choose-flutter.mdx';
 import Clients from './_components/clients';
 import Socials from './_components/socials';
@@ -13,6 +12,7 @@ import Hero from './_components/hero';
 import Skill from './_components/skills';
 import CallToAction from './_components/call_to_action'
 import TakingFlutterToWeb from './_components/taking_flutter_to_web';
+import MasterFlutter from './_components/master_flutter';
 
 
 function Home() {
@@ -57,6 +57,8 @@ function Home() {
             </div>
           </div>
         </section>
+
+        <MasterFlutter />
 
         <Clients />
 

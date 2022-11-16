@@ -94,6 +94,11 @@ html[data-theme='dark'] .testimonialAvatar {
   margin-left: auto;
 }
 
+.masterFlutter {
+  margin-left: auto;
+  max-height: 300px;
+}
+
 @media screen and (max-width: 600px) {
   .clients {
     flex-direction: column;

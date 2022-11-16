@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Damodar Lohani',
-  tagline: 'Mentor, Trainer & Tech Consultant',
+  tagline: 'Author, Mentor, Trainer & Tech Consultant',
   url: 'https://dlohani.com.np',
   baseUrl: '/',
   onBrokenLinks: 'throw',
