@@ -16,7 +16,7 @@ function Home() {
       description="Flutter web, Flutter Firebase, Appwrite Integration, Navigator 2 and more book">
         <Head>
         <meta name="keywords" content="flutter, flutter web, book, flutter for web, navigator, riverpod" />
-        <meta property="og:image" content={useBaseUrl('img/projects/taking-flutter-to-web.jpg')} />
+        <meta property="og:image" content="img/projects/taking-flutter-to-web.jpg" />
       </Head>
       <Hero />
       <main>
