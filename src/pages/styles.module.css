@@ -20,6 +20,13 @@
 
 }
 
+.heroFlutterWebBg {
+  background-image: url('../../static/img/projects/taking-flutter-to-web.jpg');
+  background-repeat: repeat;
+  background-size: contain;
+
+}
+
 .buttons {
   display: flex;
   align-items: center;

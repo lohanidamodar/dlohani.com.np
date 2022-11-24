@@ -2,6 +2,7 @@ import React from 'react'
 import clsx from 'clsx';
 import styles from '../styles.module.css'
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from "@docusaurus/Link";
 
 function TakingFlutterToWeb() {
     return (
@@ -15,15 +16,14 @@ function TakingFlutterToWeb() {
                         <h2>Taking Flutter to Web</h2>
                         <p>A web developer's guide to using Flutter for building responsive and adaptive web UIs using Flutter. Dive in deep into web application development using Flutter framework.</p>
                         <p>
-                            <a
+                            <Link
                                 className={clsx(
                                     'button button--outline button--primary button--md',
                                     styles.getStarted,
                                 )}
-                                target="_blank"
-                                href="https://www.amazon.com/Taking-Flutter-Web-cross-platform-platforms/dp/1801817715">
-                                Get Your Copy
-                            </a>
+                                to={useBaseUrl('flutter-web')}>
+                                Learn more
+                            </Link>
                         </p>
                     </div>
                 </div>
