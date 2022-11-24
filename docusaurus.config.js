@@ -24,6 +24,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: {
+        metadata: [{name: 'keywords', content: 'flutter, technology, consultant, programming'}],
+      },
       navbar: {
         title: 'Damodar Lohani',
         hideOnScroll: true,
