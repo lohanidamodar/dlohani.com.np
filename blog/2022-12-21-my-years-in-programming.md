@@ -1,0 +1,48 @@
+---
+slug: my-years-in-programming
+title: My 19 Years Programming Journey
+# author: Damodar Lohani
+# author_title: Web and Mobile Developer
+# author_url: https://github.com/lohanidamodar
+# author_image_url: https://avatars1.githubusercontent.com/u/6360216?s=460&u=ccf757cc3aece5b674460c4909b4a77e1d5b6a19&v=4
+tags: [meta]
+---
+I have been a programmer for an expansive 1.5 decades, and in that time I have had the opportunity to work with a vast array of programming languages and frameworks. Throughout this journey I have accumulated a variety of invaluable knowledge and insights, which I am now eager to share. In this article, I will detail the lessons I have learned throughout my programming journey and how I managed to reach this point in my career.
+
+<!-- truncate -->
+
+<div class="player">
+    <iframe src="https://www.youtube.com/embed/3-hXCpR1uqc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## The Beginning with BASIC
+
+My programming journey started back in 2003 when I was in grade 6 and we were taught QBasic and HTML in our school. QBasic, a programming language from Microsoft, was terminal based and I found it fascinating. I was so impressed by the potential of programming, I wanted to learn more. At that time, Windows 98 and Windows XP, with their visually stunning user interfaces, were the main operating systems we could use. I felt inspired by the possibilities, and I wanted to build applications with windows, dialogs, buttons, and other features. That's when I got introduced to Visual Basic. 
+
+In 2005, I just got a basic 256 Kbps dial-up internet connection and started researching on GUI programming. That's when I stumbled upon Visual Basic 6, a great tool for creating programs with a graphical user interface. It was interesting to note that Visual Basic used the same BASIC programming syntax that was used by QBasic, making it a familiar and delightful experience for me. I was hooked. I used to stay up late at night, when dial-up internet was priced by the minutes used and it was cheaper after 10PM, searching for Visual Basic code examples and tutorials. I was so deeply invested in my newfound passion that I spent countless hours building stuff with Visual Basic. It was an incredible experience that left me wanting more and honing my programming skills. I even managed to build a complete school management system with student records, results, and billing single-handedly. That was quite the experience.
+
+## Into C & C++, PHP, MySQL and More
+
+Once the school was over after grade 10 in 2008, before high-school started, I had around 3 months of free time to pursue my own interests. During this time, I was introduced to the more complex programming languages of C and C++. I started learning these on my own, and though I was not able to build anything noteworthy, the experience really helped shape my programming skills for the future. During high school, I was also required to learn C and build projects, which I was able to complete easily, due to all the knowledge I had already gained from my self-learning. This sparked a passion within me and pushed me to explore the world of programming even further.
+
+By the time I was out of high-school in 2010, I was so passionate about programming and writing code that I wanted to learn more. Before starting my undergraduate studies, I took a year off and started working as a computer lab assistant in a newly established high-school. As it happened, the high-school was in need of a result preparation and library management software. They wanted to build with PHP as a server based application that they could use over the intranet of the school. Fortunately for me, I had already developed a relationship with the IT director of the college, who had been my teacher and knew of my passion for programming and building solutions. He assigned me this task, and this was my very first paid freelance project. I had only heard of PHP before, but I had never used it, so I had to start from scratch. I downloaded countless tutorials on PHP and MySQL and started to hack and build. I found that the key to successful programming was to learn one thing at a time and immediately apply it to the project I was working on. After a month of hard work, I had a complete library management system built with PHP and MySQL, with barcode capability and an admin panel where the librarian could enter details of the books, and students could query books and see which ones they already had with them, which were past their due date, and more. Additionally, to build a nice UI, I also had to learn CSS and Javascript.
+
+Learning PHP and Javascript together, with my previous knowledge of C, C++ and HTML, made me realize that no matter what programming languages you learn, there are some core principles that apply across them all. Their syntax may be distinct from one another, but they all work on the same basic principles. For example, each language - C, PHP, Javascript - all have concepts such as loops, conditions, operators, variables, constants, expressions, and more. This means that once you understand the fundamentals of algorithm and programming, you can easily gain a familiarity with any programming language, as the underlying concepts remain the same. With the right dedication and practice, you will be able to become a proficient programmer in any language you choose.
+
+## Programming in Every Language is Similar
+
+Realizing I could learn any language or framework at any time, I began my undergraduate studies in Computer Science and Information Technology. From 2011 to 2015, I learned many different languages and frameworks. I started freelancing, building websites and web-based applications with Codeigniter and Laravel. Although many of these projects never saw the light of day, they taught me a lot about finding requirements, building solutions, planning and managing data structures, optimizing data structures and databases, and more. Some of the languages and frameworks I learned during this period were Java, Wordpress, Codeigniter, and Laravel, as well as countless others I don't even remember. I was always eager to learn any new language or framework, even if only a little.
+
+By the time I was out of college in 2015, I had already started to build up a steady stream of pocket money through freelance web development projects. With the advent of the smartphone, however, I was eager to expand my skill set and explore the possibilities of mobile applications. I started hacking away with the major languages and frameworks out there, diving into Android, ReactNative, Ionic, Phonegap, Cordova, Kotlin and more. Although I have since moved away from many of these languages and frameworks, I found that the process of learning one made it much easier to understand and pick up another. In December 2018, the stable version of Flutter was launched and with the knowledge I had gained from React and ReactNative, it was a piece of cake to get up and running. It was then that my career really began to take off.
+
+## Rise of Flutter & My Career
+
+With the ever-increasing demand for Flutter, and me spending a lot of time learning and sharing about Flutter on my GitHub and various Social networks, I was noticed and my efforts enabled me to land my very first freelance long-term Flutter project within a month of starting to learn the technology. After that, more projects came my way and I was able to further refine my skills.
+
+In addition, I also began making Flutter-based YouTube tutorials and that’s when I found out about Appwrite - a self-hosted Backend-as-a-Service (BaaS) for mobile and web applications. I was immediately drawn to the project and started making Flutter + Appwrite tutorials, thus strengthening my relationship with the Appwrite founder. I started contributing to the Flutter SDK, and when Appwrite began hiring, I was one of the few selected due to my enthusiasm for the project and the contributions I had made. Since then, I have been working with Appwrite, but my learning journey has never stopped. I am constantly learning and honing my skills on different platforms and languages. I also work on a number of side projects. At the moment, I am using SvelteKit to build various passion projects, and the best part is that I get to use Appwrite for my hack and build projects.
+
+## Conclusion
+
+In conclusion, I have had a long and varied career as a programmer, starting with an introduction to QBasic and HTML in grade school and eventually working with a range of programming languages and frameworks. Through self-study and hands-on experience, I have developed a strong passion for programming and have gained a wide range of valuable skills. This journey has included building a school management system with Visual Basic, learning C and C++ on my own, working on a PHP and MySQL project as a freelance programmer, and more. Through determination and a willingness to learn and apply new knowledge, I have been able to achieve this level of success in my programming career.
+
+I hope this story can provide inspiration that, with patience and dedication, the dream to become successful developer can be achieved. It may take time and effort, but the rewards for such hard work are immense. When you can finally ride on top of these skills, you will have the power to build an amazing career and gain a great sense of accomplishment. So, keep practicing and learning, and one day you will be able to reap the rewards.
