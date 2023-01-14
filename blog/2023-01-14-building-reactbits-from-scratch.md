@@ -2,6 +2,7 @@
 title: Building ReactBits Website from Scratch
 slug: building-reactbits-website-from-scratch
 image: /img/blog/reactbits/reactbits.png
+tags: [Appwrite, Svelte]
 ---
 
 ![ReactBits](/img/blog/reactbits/reactbits.png)
