@@ -2,6 +2,7 @@
 title: Building Calendar App with Flutter
 slug: building-calendar-app-with-flutter
 image: /img/blog/calendar/calendar4.png
+tags: [Flutter]
 ---
 Calendar is integral to various types of applications. From a simple scheduling application to complex management systems, calendar plays important role. In this tutorial we will learn to display and customize a calendar in our Flutter application.
 
