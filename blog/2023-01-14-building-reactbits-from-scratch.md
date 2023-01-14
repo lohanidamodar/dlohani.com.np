@@ -15,10 +15,10 @@ Last week, I rebuilt the [ReactBits](https://reactbits.com) website from scratch
 
 In order to rebuild ReactBits, I chose the following tech stack.
 
-1. Appwrite Cloud (Which is still in invite only beta)
-2. Svelte Kit
-3. Vercel
-4. GitHub
+1. [Appwrite](https://appwrite.io) Cloud (Which is still in invite only beta)
+2. [Svelte Kit](https://kit.svelte.dev)
+3. [Vercel](https://vercel.com/)
+4. [GitHub](https://github.com)
 
 ### Appwrite
 
