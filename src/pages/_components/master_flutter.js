@@ -13,7 +13,7 @@ function TakingFlutterToWeb() {
                     </div>
                     <div className="col col--4">
                         <h2>Master Flutter</h2>
-                        <p>Learn Effective. Master Dart & Flutter. Become Flutter Developer. A one stop no-nonsense guide to learn Dart &amp; Flutter. Project based, self-taught guide.</p>
+                        <p>Introducing Master Flutter - the ultimate guide to learning Dart and Flutter through practical projects and comprehensive resources. Whether you're a seasoned developer or just getting started, our project-based approach covers everything you need to know about building high-quality, cross-platform mobile and web applications.</p>
                         <p>
                             <a
                                 className={clsx(
@@ -21,18 +21,8 @@ function TakingFlutterToWeb() {
                                     styles.getStarted,
                                 )}
                                 target="_blank"
-                                href="https://flutter.appwriters.dev">
-                                Learn more
-                            </a>
-                            &nbsp;
-                            <a
-                                className={clsx(
-                                    'button button--outline button--primary button--md',
-                                    styles.getStarted,
-                                )}
-                                target="_blank"
-                                href="https://flutter.appwriters.dev/subscribe">
-                                Get Early Access
+                                href="https://masterfultter.appwriters.dev">
+                                Start Learning
                             </a>
                         </p>
                     </div>
