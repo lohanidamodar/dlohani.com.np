@@ -11,6 +11,18 @@
   position: relative;
   overflow: hidden;
 }
+.heroBanner p {
+  color: white;
+}
+
+.heroBanner h1 {
+  color: white;
+}
+
+.heroBanner a {
+  color: white;
+  text-decoration: underline;
+}
 
 .heroBg {
   background-image: url('../data/hero-back.jpg');

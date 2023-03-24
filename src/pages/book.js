@@ -3,6 +3,7 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Link from "@docusaurus/Link";
 
 function Contact() {
     const context = useDocusaurusContext();
@@ -24,6 +25,7 @@ function Contact() {
             <header className={clsx('hero hero--primary', styles.heroBanner)}>
                 <div className="container">
                     <h1 className="hero__title">Book Now</h1>
+                    <p>These meetings are for paid consultation. If you have other requests reach out to me on <Link to="/contact">socials</Link></p>
                 </div>
             </header>
             <main>
