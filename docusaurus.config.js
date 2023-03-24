@@ -25,6 +25,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [{name: 'keywords', content: 'flutter, technology, consultant, programming'}],
+      announcementBar: {
+        id: 'new_blog',
+        content:
+        'Started new blog at <a target="_blank" rel="noopener noreferrer" href="https://appwriters.dev/blog">appwriters.dev</a>',
+      backgroundColor: '#a21432',
+      textColor: '#ffffff',
+      isCloseable: false,
+      },
       navbar: {
         title: 'Damodar Lohani',
         hideOnScroll: true,

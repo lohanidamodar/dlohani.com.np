@@ -44,7 +44,7 @@ function Home() {
           </section>
         )}
 
-        <TakingFlutterToWeb />
+        <MasterFlutter />
 
         <section className={clsx(styles.section, 'bg--primary')}>
           <div className="container padding-vert--xl">
@@ -58,7 +58,7 @@ function Home() {
           </div>
         </section>
 
-        <MasterFlutter />
+        <TakingFlutterToWeb />
 
         <Clients />
 
