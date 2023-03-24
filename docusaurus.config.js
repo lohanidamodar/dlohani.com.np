@@ -28,7 +28,7 @@ const config = {
       announcementBar: {
         id: 'new_blog',
         content:
-        'Started new blog at <a target="_blank" rel="noopener noreferrer" href="https://appwriters.dev">appwriters.dev</a>',
+        'Started new blog at <a target="_blank" rel="noopener noreferrer" href="https://appwriters.dev/blog">appwriters.dev</a>',
       backgroundColor: '#a21432',
       textColor: '#ffffff',
       isCloseable: false,
