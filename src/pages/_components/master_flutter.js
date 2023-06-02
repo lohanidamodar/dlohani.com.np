@@ -21,7 +21,7 @@ function TakingFlutterToWeb() {
                                     styles.getStarted,
                                 )}
                                 target="_blank"
-                                href="https://masterfultter.appwriters.dev">
+                                href="https://masterflutter.appwriters.dev">
                                 Start Learning
                             </a>
                         </p>
