@@ -4,20 +4,20 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import Link from "@docusaurus/Link";
+import Cal, { getCalApi } from "@calcom/embed-react";
 
 function Contact() {
     const context = useDocusaurusContext();
     const { siteConfig = {} } = context;
+
+
     useEffect(() => {
-        const head = document.querySelector('head');
-        const script = document.createElement('script');
-        script.setAttribute(
-          'src',
-          'https://assets.calendly.com/assets/external/widget.js'
-        );
-        head.appendChild(script);
-      }, []);
-    
+        (async function () {
+            const cal = await getCalApi();
+            cal.ns["30min"]("ui", { "styles": { "branding": { "brandColor": "#a21432" } }, "hideEventTypeDetails": false, "layout": "month_view" });
+        })();
+    }, [])
+
     return (
         <Layout
             title={`Contact ${siteConfig.title}`}
@@ -29,7 +29,14 @@ function Contact() {
                 </div>
             </header>
             <main>
-                <div class="calendly-inline-widget" data-url="https://calendly.com/lohanidamodar?hide_landing_page_details=1&hide_gdpr_banner=1" style={{minWidth:320, height:630}}></div>
+
+                <Cal namespace="30min"
+                    calLink="lohanidamodar/30min"
+                    style={{ width: "100%", height: "100%", overflow: "scroll", marginTop: "20px" }}
+                    config={{ layout: 'month_view' }}
+
+
+                />
             </main>
 
         </Layout>
