@@ -1,0 +1,322 @@
+{
+    "meta": {
+        "title": "Services - Damodar Lohani",
+        "description": "Consulting services to help businesses systematize processes, build scalable projects, and integrate technology effectively. Expertise in system architecture, automation, and team leadership."
+    },
+    "hero": {
+        "title": "My Services",
+        "subtitle": "Consulting to help your business systematize processes, build scalable projects, and make smart technology decisions."
+    },
+    "servicesSection": {
+        "title": "My Services",
+        "subtitle": "I help businesses grow, systematize, and build scalable products with comprehensive consulting services",
+        "services": [
+            {
+                "id": 1,
+                "icon": "🏗️",
+                "title": "System Architecture & Design",
+                "description": "Design and build systems that scale effectively. From database optimization to API planning, I help create solid technical foundations.",
+                "features": [
+                    "System design & architecture review",
+                    "Database design & optimization",
+                    "API planning & integration strategies",
+                    "Performance optimization",
+                    "Technology stack recommendations"
+                ],
+                "visible": true
+            },
+            {
+                "id": 2,
+                "icon": "⚡",
+                "title": "Process Automation",
+                "description": "Identify bottlenecks and automate workflows to improve efficiency and scalability for non-tech businesses.",
+                "features": [
+                    "Workflow analysis & optimization",
+                    "Automation planning & implementation",
+                    "Integration with IoT and real-time systems",
+                    "Custom dashboard creation",
+                    "Scalable automation solutions"
+                ],
+                "visible": true
+            },
+            {
+                "id": 3,
+                "icon": "🚀",
+                "title": "Full-Stack Development",
+                "description": "Build complete applications tailored to your needs. From web apps to mobile solutions, I deliver reliable and user-friendly products.",
+                "features": [
+                    "Web application development",
+                    "Mobile app development (Flutter/React Native)",
+                    "Backend API development",
+                    "Database setup & management",
+                    "Cloud deployment & hosting"
+                ],
+                "visible": false
+            },
+            {
+                "id": 4,
+                "icon": "👥",
+                "title": "Team Leadership & Mentoring",
+                "description": "Empower your development team with technical mentoring, best practices, and improved workflows.",
+                "features": [
+                    "Technical mentoring & coaching",
+                    "Development workflow setup",
+                    "Code review processes",
+                    "Team productivity improvement",
+                    "Engineering skill development"
+                ],
+                "visible": true
+            },
+            {
+                "id": 5,
+                "icon": "🔧",
+                "title": "Legacy System Modernization",
+                "description": "Upgrade outdated systems while maintaining functionality. Reduce technical debt and improve performance.",
+                "features": [
+                    "Legacy code assessment & refactoring",
+                    "Technology migration & upgrades",
+                    "Performance improvements",
+                    "Security updates & fixes",
+                    "Gradual modernization planning"
+                ],
+                "visible": true
+            },
+            {
+                "id": 6,
+                "icon": "💡",
+                "title": "Technical Advisory",
+                "description": "Get expert advice on technical decisions and architecture choices to ensure project success.",
+                "features": [
+                    "Technology evaluation & selection",
+                    "Architecture review & recommendations",
+                    "Technical problem solving",
+                    "Development strategy planning",
+                    "Best practices implementation"
+                ],
+                "visible": true
+            }
+        ]
+    },
+    "processSection": {
+        "title": "My Process",
+        "subtitle": "A systematic approach to deliver exceptional results",
+        "steps": [
+            {
+                "number": 1,
+                "title": "Discovery & Analysis",
+                "description": "I start by understanding your business goals, current challenges, and identifying opportunities for improvement. This includes analyzing your existing processes, technology stack, and market position.",
+                "visible": true
+            },
+            {
+                "number": 2,
+                "title": "Strategy & Planning",
+                "description": "Based on the analysis, I create a comprehensive strategy and roadmap tailored to your specific needs. This includes technology recommendations, implementation timeline, and success metrics.",
+                "visible": true
+            },
+            {
+                "number": 3,
+                "title": "Implementation",
+                "description": "I work closely with your team to implement the solutions, providing hands-on development, guidance, and training. Regular check-ins ensure we stay on track and adapt to any changes.",
+                "visible": true
+            },
+            {
+                "number": 4,
+                "title": "Optimization & Support",
+                "description": "After implementation, I provide ongoing optimization, monitoring, and support to ensure your solutions continue to deliver value and scale with your business growth.",
+                "visible": true
+            }
+        ]
+    },
+    "pricingSection": {
+        "title": "Consulting Packages for Nepali Businesses",
+        "subtitle": "Affordable consultation packages tailored for Nepali businesses and startups ready to scale with technology.",
+        "openingDiscount": {
+            "visible": true,
+            "text": "Opening Offer: 30% OFF on all packages",
+            "subtitle": "Limited time offer for the first 10 clients",
+            "validUntil": "2025-08-31"
+        },
+        "packages": [
+            {
+                "name": "Startup consultation",
+                "price": "NPR 5,888",
+                "originalPrice": "NPR 8,000",
+                "period": "/session",
+                "hourlyRate": "NPR 2,944/hour",
+                "description": "Perfect for startups needing guidance on tech decisions and business strategy",
+                "discountLabel": "30% OFF",
+                "features": [
+                    "✓ Business model validation",
+                    "✓ Technology stack recommendations",
+                    "✓ MVP planning and roadmap",
+                    "✓ Cost-effective solution design",
+                    "✓ 2-hour dedicated remote session"
+                ],
+                "cta": {
+                    "text": "Book Session",
+                    "href": "/subscribe?package=startup-consultation",
+                    "style": "secondary"
+                },
+                "visible": true
+            },
+            {
+                "name": "Digital Transformation",
+                "price": "NPR 20,888",
+                "originalPrice": "NPR 30,000",
+                "period": "/month",
+                "hourlyRate": "NPR 2,611/hour",
+                "description": "Intensive support for businesses digitizing operations and processes",
+                "discountLabel": "30% OFF",
+                "badge": "Most Popular",
+                "features": [
+                    "✓ Complete digital transformation roadmap",
+                    "✓ Legacy system modernization planning",
+                    "✓ Automation implementation",
+                    "✓ Staff training and change management",
+                    "✓ 6 hours remote + 2 hours on-site consultation",
+                    "✓ Documentation and handover"
+                ],
+                "cta": {
+                    "text": "Transform Now",
+                    "href": "/subscribe?package=digital-transformation",
+                    "style": "primary"
+                },
+                "highlighted": true,
+                "visible": true
+            },
+            {
+                "name": "Business growth package",
+                "price": "NPR 30,888",
+                "originalPrice": "NPR 44,000",
+                "period": "/month",
+                "hourlyRate": "NPR 2,060/hour",
+                "description": "Comprehensive monthly support for established businesses ready to scale",
+                "discountLabel": "30% OFF",
+                "features": [
+                    "✓ Process automation and optimization",
+                    "✓ System architecture and scalability planning",
+                    "✓ Team mentoring and training",
+                    "✓ Monthly strategy reviews",
+                    "✓ 10 hours remote + 5 hours on-site consultation",
+                    "✓ Ongoing WhatsApp/Email support"
+                ],
+                "cta": {
+                    "text": "Start Growing",
+                    "href": "/subscribe?package=business-growth",
+                    "style": "secondary"
+                },
+                "visible": true
+            }
+        ],
+        "includedSection": {
+            "title": "What Every Nepali Business Gets",
+            "visible": true,
+            "items": [
+                {
+                    "icon": "🇳🇵",
+                    "title": "Local Market Understanding",
+                    "description": "Deep knowledge of Nepali business environment and market dynamics",
+                    "visible": true
+                },
+                {
+                    "icon": "💡",
+                    "title": "Practical Solutions",
+                    "description": "Cost-effective technology solutions that fit Nepali business budgets",
+                    "visible": true
+                },
+                {
+                    "icon": "🚀",
+                    "title": "Implementation Support",
+                    "description": "Hands-on guidance to implement solutions with your existing team",
+                    "visible": true
+                },
+                {
+                    "icon": "📚",
+                    "title": "Knowledge Transfer",
+                    "description": "Training and documentation to empower your team for future growth",
+                    "visible": true
+                },
+                {
+                    "icon": "🤝",
+                    "title": "Ongoing Mentorship",
+                    "description": "Continued support and guidance as your business scales",
+                    "visible": true
+                },
+                {
+                    "icon": "🔧",
+                    "title": "Custom Tools & Systems",
+                    "description": "Tailored automation and systems designed for your specific needs",
+                    "visible": true
+                }
+            ]
+        }
+    },
+    "testimonialsSection": {
+        "title": "Client Testimonials",
+        "subtitle": "What my clients have to say about working with me",
+        "testimonials": [
+            {
+                "id": 1,
+                "name": "Sarah Johnson",
+                "position": "CEO, TechStart Inc.",
+                "company": "TechStart Inc.",
+                "content": "Damodar's strategic consulting transformed our entire business model. His data-driven approach to growth strategy helped us achieve 300% revenue increase within 8 months. He doesn't just build technology - he builds businesses.",
+                "avatar": "/images/testimonials/sarah.jpg",
+                "rating": 5,
+                "visible": true
+            },
+            {
+                "id": 2,
+                "name": "Mike Chen",
+                "position": "CTO, InnovateLab",
+                "company": "InnovateLab",
+                "content": "Working with Damodar was transformational for our startup. His deep understanding of both technology and business strategy helped us avoid costly mistakes and accelerate our path to market leadership.",
+                "avatar": "/images/testimonials/mike.jpg",
+                "rating": 5,
+                "visible": true
+            },
+            {
+                "id": 3,
+                "name": "Emily Rodriguez",
+                "position": "Operations Director, GrowthCo",
+                "company": "GrowthCo",
+                "content": "Damodar revolutionized our operations. His process optimization strategies reduced our operational costs by 60% while improving quality. He has a unique ability to see the big picture and execute systematically.",
+                "avatar": "/images/testimonials/emily.jpg",
+                "rating": 5,
+                "visible": true
+            },
+            {
+                "id": 4,
+                "name": "David Park",
+                "position": "Founder, ScaleUp Ventures",
+                "company": "ScaleUp Ventures",
+                "content": "The ROI from Damodar's consulting has been phenomenal. His team leadership guidance helped us build a high-performing engineering culture that scales. Worth every investment.",
+                "avatar": "/images/testimonials/david.jpg",
+                "rating": 5,
+                "visible": true
+            }
+        ]
+    },
+    "sections": {
+        "hero": {
+            "variant": "gradient-subtle",
+            "padding": "large"
+        },
+        "services": {
+            "variant": "pattern-dots",
+            "padding": "large"
+        },
+        "process": {
+            "variant": "texture",
+            "padding": "large"
+        },
+        "pricing": {
+            "variant": "glass",
+            "padding": "large"
+        },
+        "testimonials": {
+            "variant": "pattern-waves",
+            "padding": "large"
+        }
+    }
+}

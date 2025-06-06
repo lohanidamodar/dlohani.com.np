@@ -1,0 +1,237 @@
+{
+    "meta": {
+        "title": "Damodar Lohani - Consultant for Scalable Systems & Process Automation",
+        "description": "Helping businesses systematize processes, build scalable projects, and integrate technology effectively. 15+ years of development experience with expertise in system architecture, automation, and team leadership."
+    },
+    "whyWorkWithMe": {
+        "title": "Why Work With Me?",
+        "subtitle": "I help businesses systematize processes, build scalable projects, and integrate technology effectively. With 15+ years of hands-on development experience, I provide practical guidance and solutions that drive measurable improvements.",
+        "benefits": [
+            {
+                "icon": "chart",
+                "title": "Practical & Proven Solutions",
+                "description": "I recommend technologies and approaches that I've tested in real-world applications.",
+                "visible": true
+            },
+            {
+                "icon": "team",
+                "title": "Hands-On Technical Guidance",
+                "description": "I work directly with your team to implement solutions and foster a culture of innovation.",
+                "visible": true
+            },
+            {
+                "icon": "growth",
+                "title": "Focus on Scalability",
+                "description": "I help you build systems that solve real problems and scale with your business growth.",
+                "visible": true
+            }
+        ],
+        "cta": {
+            "text": "Learn More About My Approach",
+            "href": "/about"
+        }
+    },
+    "technologiesSection": {
+        "title": "Technologies I Work With",
+        "maxSkills": 15,
+        "categories": [
+            {
+                "category": "Frontend",
+                "technologies": [
+                    "React",
+                    "Next.js",
+                    "Svelte",
+                    "SvelteKit",
+                    "Vue.js",
+                    "JavaScript",
+                    "TypeScript",
+                    "HTML5",
+                    "CSS3",
+                    "Tailwind CSS"
+                ],
+                "visible": true
+            },
+            {
+                "category": "Mobile",
+                "technologies": [
+                    "Flutter",
+                    "Dart",
+                    "React Native",
+                    "iOS",
+                    "Android"
+                ],
+                "visible": true
+            },
+            {
+                "category": "Backend",
+                "technologies": [
+                    "Node.js",
+                    "NestJS",
+                    "Express.js",
+                    "Python",
+                    "Django",
+                    "FastAPI",
+                    "REST APIs",
+                    "GraphQL"
+                ],
+                "visible": true
+            },
+            {
+                "category": "Database",
+                "technologies": [
+                    "PostgreSQL",
+                    "MongoDB",
+                    "Firebase Firestore",
+                    "MySQL",
+                    "Redis",
+                    "Prisma",
+                    "TypeORM"
+                ],
+                "visible": true
+            },
+            {
+                "category": "Cloud & DevOps",
+                "technologies": [
+                    "AWS",
+                    "Google Cloud",
+                    "Digital Ocean",
+                    "Firebase",
+                    "Appwrite",
+                    "Docker",
+                    "Git",
+                    "GitHub Actions",
+                    "Vercel",
+                    "Netlify"
+                ],
+                "visible": true
+            }
+        ]
+    },
+    "recentProjects": {
+        "title": "Recent Projects",
+        "subtitle": "Examples of systems built, processes automated, and challenges solved.",
+        "clients": [
+            {
+                "name": "Appwrite",
+                "logo": "🔧",
+                "description": "Building and scaling an open-source developer tool as a platform engineer, focusing on system architecture and developer experience.",
+                "visible": true
+            },
+            {
+                "name": "Parentiv Inc.",
+                "logo": "🏢",
+                "description": "Architected scalable systems and led Flutter development team during rapid growth phase.",
+                "visible": true
+            },
+            {
+                "name": "Kindship Co.",
+                "logo": "🤝",
+                "description": "Built full-stack web and mobile solutions for community engagement platform.",
+                "visible": true
+            }
+        ],
+        "cta": {
+            "text": "View All Projects",
+            "href": "/projects"
+        }
+    },
+    "blogSection": {
+        "title": "Latest Articles",
+        "subtitle": "Insights and tutorials on technology, business, and consulting",
+        "posts": [
+            {
+                "id": 1,
+                "title": "Should You Choose Flutter for Your Next Mobile App?",
+                "excerpt": "A comprehensive guide to help you decide if Flutter is the right choice for your mobile app development project.",
+                "publishedAt": "2022-07-31",
+                "slug": "should-you-choose-flutter",
+                "category": "Flutter",
+                "readTime": "8 min read",
+                "image": "/images/blog/flutter-choice.jpg",
+                "featured": true,
+                "visible": true
+            },
+            {
+                "id": 2,
+                "title": "Building Scalable Business Processes with Technology",
+                "excerpt": "Learn how to identify bottlenecks in your business and systematically improve them using modern technology solutions.",
+                "publishedAt": "2023-03-15",
+                "slug": "scalable-business-processes",
+                "category": "Business",
+                "readTime": "12 min read",
+                "image": "/images/blog/business-processes.jpg",
+                "featured": true,
+                "visible": true
+            },
+            {
+                "id": 3,
+                "title": "Futures and Future Builders in Flutter",
+                "excerpt": "Understanding asynchronous programming in Flutter and how to handle async operations effectively.",
+                "publishedAt": "2021-12-31",
+                "slug": "futures-and-future-builders-in-flutter",
+                "category": "Flutter",
+                "readTime": "6 min read",
+                "image": "/images/blog/flutter-futures.jpg",
+                "featured": false,
+                "visible": true
+            }
+        ],
+        "cta": {
+            "text": "View All Articles",
+            "href": "/blog"
+        }
+    },
+    "testimonialsSection": {
+        "title": "Client Testimonials",
+        "subtitle": "What my clients are saying",
+        "testimonials": [
+            {
+                "id": 1,
+                "name": "Sarah Johnson",
+                "position": "CEO, TechStart Inc.",
+                "company": "TechStart Inc.",
+                "content": "Damodar's strategic consulting transformed our entire business model. His data-driven approach to growth strategy helped us achieve 300% revenue increase within 8 months. He doesn't just build technology - he builds businesses.",
+                "avatar": "/images/testimonials/sarah.jpg",
+                "rating": 5,
+                "visible": true
+            },
+            {
+                "id": 2,
+                "name": "Mike Chen",
+                "position": "CTO, InnovateLab",
+                "company": "InnovateLab",
+                "content": "Working with Damodar was transformational for our startup. His deep understanding of both technology and business strategy helped us avoid costly mistakes and accelerate our path to market leadership.",
+                "avatar": "/images/testimonials/mike.jpg",
+                "rating": 5,
+                "visible": true
+            }
+        ]
+    },
+    "sections": {
+        "services": {
+            "variant": "gradient-subtle",
+            "showAll": false,
+            "limit": 3
+        },
+        "whyWorkWithMe": {
+            "variant": "mesh"
+        },
+        "recentProjects": {
+            "variant": "mesh"
+        },
+        "projects": {
+            "variant": "pattern-grid",
+            "showAll": false,
+            "limit": 3,
+            "featuredOnly": true
+        },
+        "testimonials": {
+            "variant": "glass",
+            "limit": 3
+        },
+        "blog": {
+            "variant": "pattern-waves",
+            "limit": 3
+        }
+    }
+}

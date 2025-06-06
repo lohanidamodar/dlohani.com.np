@@ -1,0 +1,201 @@
+{
+    "meta": {
+        "title": "Get Quote - Damodar Lohani",
+        "description": "Get a personalized quote for your business consultation needs. Tell us about your challenges and we'll provide a tailored solution."
+    },
+    "hero": {
+        "title": "Subscribe for Personalized Consultation",
+        "subtitle": "Subsbribe to receive tailored business consultation based on your unique needs. We will get back to you within 24 hours."
+    },
+    "wizard": {
+        "steps": [
+            {
+                "id": 1,
+                "title": "Business challenges",
+                "subtitle": "What are your main business challenges?",
+                "description": "Select all that apply to your current situation"
+            },
+            {
+                "id": 2,
+                "title": "Business stage",
+                "subtitle": "What stage is your business in?",
+                "description": "This helps us understand your scale and needs"
+            },
+            {
+                "id": 3,
+                "title": "Choose package",
+                "subtitle": "Select your preferred consultation package",
+                "description": "Based on your needs, here are our recommended packages"
+            },
+            {
+                "id": 4,
+                "title": "Contact details",
+                "subtitle": "Almost done! Tell us how to reach you",
+                "description": "We'll use this information to send your personalized quote"
+            }
+        ],
+        "fields": {
+            "challenges": {
+                "label": "Current business challenges",
+                "type": "checkbox",
+                "options": [
+                    {
+                        "value": "scaling-operations",
+                        "label": "Scaling operations & processes",
+                        "description": "Growing team size, managing workflows, standardizing procedures"
+                    },
+                    {
+                        "value": "technology-integration",
+                        "label": "Technology integration & automation",
+                        "description": "Implementing new tools, automating manual tasks, system integration"
+                    },
+                    {
+                        "value": "team-leadership",
+                        "label": "Team leadership & development",
+                        "description": "Building effective teams, leadership training, performance management"
+                    },
+                    {
+                        "value": "digital-transformation",
+                        "label": "Digital transformation",
+                        "description": "Modernizing business processes, adopting digital solutions"
+                    },
+                    {
+                        "value": "system-architecture",
+                        "label": "System architecture & scalability",
+                        "description": "Technical infrastructure, system design, scalability planning"
+                    },
+                    {
+                        "value": "cost-optimization",
+                        "label": "Cost optimization & efficiency",
+                        "description": "Reducing operational costs, improving efficiency, resource optimization"
+                    }
+                ]
+            },
+            "businessStage": {
+                "label": "Business stage",
+                "type": "radio",
+                "options": [
+                    {
+                        "value": "startup",
+                        "label": "Early startup",
+                        "description": "Idea to MVP stage, small team, validating product-market fit"
+                    },
+                    {
+                        "value": "growing",
+                        "label": "Growing business",
+                        "description": "1-50 employees, established product, scaling operations"
+                    },
+                    {
+                        "value": "established",
+                        "label": "Established company",
+                        "description": "50+ employees, multiple products/services, process optimization"
+                    },
+                    {
+                        "value": "enterprise",
+                        "label": "Enterprise",
+                        "description": "500+ employees, complex operations, digital transformation"
+                    }
+                ]
+            },
+            "package": {
+                "label": "Consultation package",
+                "type": "radio",
+                "options": [
+                    {
+                        "value": "startup-consultation",
+                        "label": "Startup consultation",
+                        "price": "NPR 5,888",
+                        "period": "per session",
+                        "description": "Perfect for early-stage startups and entrepreneurs",
+                        "features": [
+                            "1-on-1 strategic consultation",
+                            "Business model validation",
+                            "Technology roadmap planning",
+                            "Resource optimization advice"
+                        ]
+                    },
+                    {
+                        "value": "digital-transformation",
+                        "label": "Digital transformation",
+                        "price": "NPR 20,888",
+                        "period": "per month",
+                        "description": "Ideal for growing businesses ready to scale",
+                        "features": [
+                            "Process automation strategy",
+                            "Technology integration planning",
+                            "Team workflow optimization",
+                            "Monthly progress reviews"
+                        ]
+                    },
+                    {
+                        "value": "business-growth",
+                        "label": "Business growth package",
+                        "price": "NPR 30,888",
+                        "period": "per month",
+                        "description": "Comprehensive solution for established companies",
+                        "features": [
+                            "Complete business optimization",
+                            "Leadership development program",
+                            "System architecture planning",
+                            "Ongoing strategic support"
+                        ]
+                    },
+                    {
+                        "value": "custom",
+                        "label": "Custom solution",
+                        "price": "Contact for pricing",
+                        "period": "",
+                        "description": "Tailored specifically to your unique requirements",
+                        "features": [
+                            "Customized consultation plan",
+                            "Flexible engagement model",
+                            "Specialized expertise",
+                            "Enterprise-level support"
+                        ]
+                    }
+                ]
+            },
+            "name": {
+                "label": "Full name *",
+                "placeholder": "Your full name",
+                "required": true
+            },
+            "email": {
+                "label": "Email address *",
+                "placeholder": "your@email.com",
+                "required": true
+            },
+            "company": {
+                "label": "Company/Organization",
+                "placeholder": "Your company name",
+                "required": false
+            },
+            "contactNumber": {
+                "label": "Contact number",
+                "placeholder": "Your phone number",
+                "required": false
+            }
+        },
+        "navigation": {
+            "next": "Next Step",
+            "previous": "Previous",
+            "submit": "Query subscription"
+        },
+        "completion": {
+            "title": "Subscription request Submitted!",
+            "message": "Thank you for your interest. We'll review your requirements and get back to you within 24 hours.",
+            "cta": {
+                "text": "Back to Home",
+                "href": "/"
+            }
+        }
+    },
+    "sections": {
+        "hero": {
+            "variant": "gradient-subtle"
+        },
+        "wizard": {
+            "variant": "pattern-grid"
+        }
+    }
+}

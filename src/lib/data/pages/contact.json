@@ -1,0 +1,223 @@
+{
+    "meta": {
+        "title": "Contact - Damodar Lohani",
+        "description": "Get in touch to discuss how I can help your business systematize processes, build scalable projects, and integrate technology effectively."
+    },
+    "hero": {
+        "title": "Let's Work Together",
+        "subtitle": "Ready to transform your business with technology? I'd love to hear about your challenges and discuss how I can help you achieve your goals."
+    },
+    "contactForm": {
+        "title": "Send Me a Message",
+        "successMessage": {
+            "title": "Message Sent Successfully!",
+            "description": "Thank you for reaching out. I'll get back to you within 24 hours."
+        },
+        "fields": {
+            "name": {
+                "label": "Full name *",
+                "placeholder": "Your full name",
+                "required": true
+            },
+            "email": {
+                "label": "Email address *",
+                "placeholder": "your@email.com",
+                "required": true
+            },
+            "company": {
+                "label": "Company/Organization",
+                "placeholder": "Your company name",
+                "required": false
+            },
+            "contactNumber": {
+                "label": "Contact number",
+                "placeholder": "Your phone number",
+                "required": false
+            },
+            "package": {
+                "label": "Interested consultation package",
+                "options": [
+                    {
+                        "value": "",
+                        "label": "Select a package"
+                    },
+                    {
+                        "value": "startup-consultation",
+                        "label": "Startup consultation (NPR 5,888/session)"
+                    },
+                    {
+                        "value": "digital-transformation",
+                        "label": "Digital transformation (NPR 20,888/month)"
+                    },
+                    {
+                        "value": "business-growth",
+                        "label": "Business growth package (NPR 30,888/month)"
+                    },
+                    {
+                        "value": "custom",
+                        "label": "Custom solution - Let's discuss"
+                    }
+                ]
+            },
+            "businessStage": {
+                "label": "Business stage",
+                "options": [
+                    {
+                        "value": "",
+                        "label": "Select your business stage"
+                    },
+                    {
+                        "value": "startup",
+                        "label": "Early startup (Idea to MVP)"
+                    },
+                    {
+                        "value": "growing",
+                        "label": "Growing business (1-50 employees)"
+                    },
+                    {
+                        "value": "established",
+                        "label": "Established company (50+ employees)"
+                    },
+                    {
+                        "value": "enterprise",
+                        "label": "Enterprise (500+ employees)"
+                    }
+                ]
+            },
+            "currentChallenges": {
+                "label": "Current business challenges",
+                "options": [
+                    {
+                        "value": "",
+                        "label": "Select your main challenges"
+                    },
+                    {
+                        "value": "scaling-operations",
+                        "label": "Scaling operations & processes"
+                    },
+                    {
+                        "value": "technology-integration",
+                        "label": "Technology integration & automation"
+                    },
+                    {
+                        "value": "team-leadership",
+                        "label": "Team leadership & development"
+                    },
+                    {
+                        "value": "digital-transformation",
+                        "label": "Digital transformation"
+                    },
+                    {
+                        "value": "system-architecture",
+                        "label": "System architecture & scalability"
+                    },
+                    {
+                        "value": "cost-optimization",
+                        "label": "Cost optimization & efficiency"
+                    }
+                ]
+            },
+            "message": {
+                "label": "Business goals & requirements *",
+                "placeholder": "Tell me about your business goals, current challenges, and how I can help you scale with technology...",
+                "required": true
+            }
+        },
+        "submitButton": {
+            "default": "Send Message",
+            "loading": "Sending..."
+        }
+    },
+    "contactInfo": {
+        "title": "Get In Touch",
+        "items": [
+            {
+                "icon": "email",
+                "title": "Email",
+                "content": "dynamic from personalInfo.email",
+                "visible": false
+            },
+            {
+                "icon": "location",
+                "title": "Location",
+                "content": "dynamic from personalInfo.location",
+                "visible": true
+            },
+            {
+                "icon": "time",
+                "title": "Response Time",
+                "content": "Usually within 24 hours",
+                "visible": true
+            }
+        ],
+        "socialLinks": {
+            "title": "Connect with me",
+            "maxLinks": 4
+        }
+    },
+    "faqSection": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Common questions about my services and process",
+        "faqs": [
+            {
+                "id": 1,
+                "question": "What types of businesses do you consult for?",
+                "answer": "I work with growth-stage startups (Series A-C), established SMBs undergoing digital transformation, and enterprises optimizing technology operations. My clients span SaaS, e-commerce, manufacturing, education, and service industries. Whether you're scaling from $1M to $10M ARR or optimizing operations for efficiency gains, I help businesses achieve measurable outcomes.",
+                "visible": true
+            },
+            {
+                "id": 2,
+                "question": "How do you measure the success of your consulting engagements?",
+                "answer": "Success is measured through concrete business metrics: revenue growth (typically 30-300%), operational cost reduction (30-70%), time-to-market improvements (50-80%), team productivity gains (40-60%), and process efficiency improvements. Every engagement includes baseline measurement and quarterly progress reviews with detailed ROI reporting.",
+                "visible": true
+            },
+            {
+                "id": 3,
+                "question": "What's your consulting methodology and approach?",
+                "answer": "I use a proven 4-phase methodology: (1) Business Assessment & Opportunity Analysis, (2) Strategic Planning & Roadmap Development, (3) Implementation & Execution Support, (4) Optimization & Scaling. This data-driven approach ensures alignment with business objectives and delivers measurable results within defined timelines.",
+                "visible": true
+            },
+            {
+                "id": 4,
+                "question": "How long do consulting engagements typically last?",
+                "answer": "Strategic assessments take 2-4 weeks, transformation projects span 3-6 months, and scaling initiatives range 6-12 months. I also offer ongoing advisory retainers for continuous strategic guidance. Engagement length depends on scope, complexity, and desired outcomes. Most clients see significant results within the first 90 days.",
+                "visible": true
+            },
+            {
+                "id": 5,
+                "question": "Do you work with international clients remotely?",
+                "answer": "Yes, I serve clients globally with a remote-first approach that has proven highly effective. I've successfully consulted for businesses across North America, Europe, Asia, and Australia. Strategic sessions are conducted via video conferencing, with occasional on-site visits for complex transformations when needed.",
+                "visible": true
+            },
+            {
+                "id": 6,
+                "question": "What's the typical ROI from your consulting services?",
+                "answer": "Clients typically see 3-10x ROI within 12 months. Common outcomes include: 30-300% revenue growth, 30-70% cost reduction, 50-80% faster time-to-market, and 40-60% productivity improvements. ROI varies by industry and starting point, but I focus exclusively on engagements where significant business value is achievable.",
+                "visible": true
+            },
+            {
+                "id": 7,
+                "question": "How do you help with team leadership and scaling?",
+                "answer": "I help build high-performing teams through strategic hiring, leadership development, process optimization, and culture building. This includes establishing agile methodologies, creating career development paths, implementing performance management systems, and developing technical leaders. The result is sustainable team scaling that maintains quality and velocity.",
+                "visible": true
+            },
+            {
+                "id": 8,
+                "question": "What industries do you have the most experience with?",
+                "answer": "My deepest experience is in SaaS/technology companies, e-commerce and digital marketplaces, educational technology, and service-based businesses. However, my methodology applies across industries. The key is understanding business models, growth drivers, and operational challenges - which are often similar across different sectors.",
+                "visible": true
+            }
+        ]
+    },
+    "sections": {
+        "hero": {
+            "variant": "gradient-subtle"
+        },
+        "contactForm": {
+            "variant": "pattern-grid"
+        },
+        "faq": {
+            "variant": "texture"
+        }
+    }
+}

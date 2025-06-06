@@ -1,0 +1,248 @@
+{
+    "meta": {
+        "title": "About - Damodar Lohani",
+        "description": "Consultant with 15+ years of development experience, helping tech businesses systematize processes, build scalable projects, and adopt the right technologies."
+    },
+    "hero": {
+        "title": "About Me",
+        "subtitle": "Dynamic bio content from personalInfo.bio"
+    },
+    "myStory": {
+        "title": "My Story",
+        "subtitle": "",
+        "content": [
+            "With over 15 years of experience in full-stack development, I specialize in helping tech businesses systematize processes and build scalable projects. My journey has been defined by a passion for creating solutions that work and empowering teams to make smart technology decisions.",
+            "As a Google Developer Expert for Flutter and Dart, and a platform engineer at Appwrite, I bring hands-on expertise in building systems that are not only technically sound but also maintainable and scalable. My approach is rooted in practical experience, having built and optimized systems for real-world applications.",
+            "I aim to help non-tech businesses identify bottlenecks that can be automated through technology integration, enabling them to scale effectively. Whether it's choosing the right architecture, setting up development processes, or fostering a culture of innovation, I guide teams toward solutions that drive measurable improvements.",
+            "Beyond consulting, I am committed to knowledge sharing and community building. Through educational content and open-source contributions, I have reached 100K+ developers globally, showcasing my dedication to advancing the technology ecosystem while delivering value to clients."
+        ],
+        "cta": {
+            "text": "Let's Work Together",
+            "href": "/contact"
+        }
+    },
+    "skillsSection": {
+        "title": "Technologies & Skills",
+        "subtitle": "",
+        "skills": [
+            
+            {
+                "category": "Mobile",
+                "technologies": [
+                    "Flutter",
+                    "React Native",
+                    "iOS",
+                    "Android"
+                ],
+                "visible": true
+            },
+            {
+                "category": "Backend",
+                "technologies": [
+                    "Appwrite",
+                    "Firebase",
+                    "Node.js",
+                    "Django",
+                    "FastAPI",
+                    "REST APIs",
+                    "GraphQL"
+                ],
+                "visible": true
+            },
+            {
+                "category": "Frontend",
+                "technologies": [
+                    "React",
+                    "Next.js",
+                    "Svelte",
+                    "SvelteKit",
+                    "Vue.js",
+                    "JavaScript",
+                    "TypeScript",
+                    "HTML5",
+                    "CSS3",
+                    "Tailwind CSS"
+                ],
+                "visible": true
+            },
+            {
+                "category": "Database",
+                "technologies": [
+                    "Appwrite database",
+                    "PostgreSQL",
+                    "MongoDB",
+                    "Firebase Firestore",
+                    "MySQL",
+                    "Redis",
+                    "Prisma",
+                    "TypeORM"
+                ],
+                "visible": true
+            },
+            {
+                "category": "Cloud & DevOps",
+                "technologies": [
+                    "AWS",
+                    "Google Cloud",
+                    "Digital Ocean",
+                    "Firebase",
+                    "Appwrite",
+                    "Docker",
+                    "Git",
+                    "GitHub Actions",
+                    "Vercel",
+                    "Netlify"
+                ],
+                "visible": true
+            },
+            {
+                "category": "Tools & Others",
+                "technologies": [
+                    "VS Code",
+                    "Figma",
+                    "Postman",
+                    "Jest",
+                    "Playwright",
+                    "Webpack",
+                    "Vite",
+                    "ESLint",
+                    "Prettier"
+                ],
+                "visible": true
+            }
+        ]
+    },
+    "experienceSection": {
+        "title": "Professional Experience",
+        "subtitle": "My journey as a consultant and developer",
+        "experience": [
+            {
+                "title": "Platform Engineer",
+                "company": "Appwrite",
+                "period": "2021 - Present",
+                "description": "Building and scaling an open-source developer tool. Focused on system architecture, developer experience, and community engagement.",
+                "technologies": [
+                    "System Architecture",
+                    "Open Source",
+                    "Developer Tools",
+                    "Community Building"
+                ],
+                "visible": true
+            },
+            {
+                "title": "Google Developer Expert for Flutter & Dart",
+                "company": "Google",
+                "period": "2021 - Present",
+                "description": "Recognized by Google for expertise in Flutter and Dart. Contributing to the Flutter ecosystem through content creation, community support, and technical guidance.",
+                "technologies": [
+                    "Flutter",
+                    "Dart",
+                    "Mobile Development",
+                    "Technical Content",
+                    "Community Building"
+                ],
+                "visible": true
+            },
+            {
+                "title": "Technical Consultant & Systems Builder",
+                "company": "Independent Practice",
+                "period": "2023 - Present",
+                "description": "Helping businesses systematize processes and build scalable solutions. Specializing in technical consulting, system architecture, and process automation.",
+                "technologies": [
+                    "System Architecture",
+                    "Technical Consulting",
+                    "Process Automation",
+                    "Team Leadership"
+                ]
+            },
+            {
+                "title": "Technical Lead",
+                "company": "Parentiv Inc.",
+                "period": "2020 - 2021",
+                "description": "Led technology decisions and team development during rapid growth. Architected systems that supported 10x user growth while maintaining reliability.",
+                "technologies": [
+                    "Team Leadership",
+                    "System Architecture",
+                    "Flutter",
+                    "Firebase",
+                    "React.js"
+                ],
+                "visible": true
+            },
+            {
+                "title": "Full Stack Developer & Product Builder",
+                "company": "Various Clients",
+                "period": "2012 - 2022",
+                "description": "Built and shipped 100+ applications for startups and enterprises. Gained experience in product development, team management, and system architecture.",
+                "technologies": [
+                    "Product Development",
+                    "Full Stack Development",
+                    "Mobile Apps",
+                    "Web Applications",
+                    "API Design"
+                ],
+                "visible": true
+            }
+        ]
+    },
+    "educationSection": {
+        "title": "Education",
+        "subtitle": "Academic background and continuous learning",
+        "education": [
+            {
+                "degree": "Bachelor of Science, Computer Science and Information Technology (B.Sc. CSIT)",
+                "institution": "Tribhuvan University",
+                "period": "2010 - 2014",
+                "description": "Focused on computer science fundamentals, programming, and software development.",
+                "visible": true
+            }
+        ]
+    },
+    "achievementsSection": {
+        "title": "Achievements & Recognition",
+        "subtitle": "Key milestones in my professional journey",
+        "achievements": [
+            {
+                "title": "Master Flutter Course",
+                "description": "Created a comprehensive Flutter course helping thousands of developers learn mobile app development.",
+                "year": "2023",
+                "visible": true
+            },
+            {
+                "title": "Open Source Contributor",
+                "description": "Active contributor to Appwrite and Flutter community with multiple open-source projects.",
+                "year": "2019-Present",
+                "visible": true
+            },
+            {
+                "title": "Technical Content Creator",
+                "description": "Created educational content on YouTube and blogs, reaching over 200K+ developers worldwide.",
+                "year": "2019-Present",
+                "visible": true
+            }
+        ]
+    },
+    "sections": {
+        "hero": {
+            "variant": "gradient-subtle"
+        },
+        "stats": {
+            "variant": "pattern-dots"
+        },
+        "myStory": {
+            "variant": "texture"
+        },
+        "skills": {
+            "variant": "pattern-grid"
+        },
+        "experience": {
+            "variant": "mesh"
+        },
+        "education": {
+            "variant": "glass"
+        },
+        "achievements": {
+            "variant": "pattern-waves"
+        }
+    }
+}

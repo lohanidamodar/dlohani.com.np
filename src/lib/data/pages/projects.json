@@ -1,0 +1,98 @@
+{
+    "meta": {
+        "title": "Projects - Damodar Lohani",
+        "description": "Case studies and examples of scalable systems, process automation, and technology integration. See how consulting helped businesses achieve measurable improvements."
+    },
+    "hero": {
+        "title": "Client Success Stories",
+        "subtitle": "Real examples of systems built, processes automated, and challenges solved through consulting and implementation."
+    },
+    "filterSection": {
+        "defaultCategory": "All"
+    },
+    "projectsSection": {
+        "title": "Featured Projects",
+        "subtitle": "A selection of my most impactful work",
+        "projects": [
+            {
+                "id": 1,
+                "title": "Appwrite - Build like a team of hundreds",
+                "description": "Building and scaling an open-source developer tool as a platform engineer. Focused on system architecture, integrations and developer experience.",
+                "technologies": [
+                    "Open Source",
+                    "System Architecture",
+                    "Developer Tools"
+                ],
+                "image": "/images/projects/appwrite.jpg",
+                "url": "https://appwrite.io",
+                "category": "Open Source",
+                "featured": true,
+                "impact": "Enhanced developer experience, scalable architecture",
+                "visible": true
+            },
+            {
+                "id": 3,
+                "title": "Korean Learning and test preparation app",
+                "description": "Built Korean language learning app with Flutter and Firebase. Implemented offline features, performance optimizations, and data structures that improved user engagement by 200%.",
+                "technologies": [
+                    "Flutter Development",
+                    "Firebase",
+                    "Performance Optimization",
+                    "Mobile Apps"
+                ],
+                "image": "/images/projects/eps-topik.jpg",
+                "url": "https://epstopikpractice.com/",
+                "category": "Mobile Development",
+                "featured": true,
+                "impact": "200% user engagement increase",
+                "visible": true
+            },
+            {
+                "id": 4,
+                "title": "Open Source Developer Tools",
+                "description": "Created Flutter UI library and educational resources reaching 100K+ developers. Built automated CI/CD pipelines, documentation systems, and community workflows.",
+                "technologies": [
+                    "Open Source",
+                    "Flutter",
+                    "CI/CD",
+                    "Documentation",
+                    "GitHub"
+                ],
+                "image": "/images/projects/flutter-ui.jpg",
+                "url": "https://github.com/lohanidamodar/flutter_ui_challenges",
+                "category": "Open Source",
+                "featured": true,
+                "impact": "100K+ developers reached, 2K+ GitHub stars",
+                "visible": false
+            },
+            {
+                "id": 5,
+                "title": "Kindship Mobile App Development",
+                "description": "Collaborated with Kindship to elevate their mobile app experience through advanced technology integrations. Focused on enhancing user engagement and scalability.",
+                "technologies": [
+                    "Mobile Development",
+                    "Technology Integration",
+                    "User Engagement"
+                ],
+                "image": "/images/projects/kindship.jpg",
+                "url": "https://www.kindship.com.au/",
+                "category": "Mobile Development",
+                "featured": true,
+                "impact": "Improved app scalability and user experience",
+                "visible": true
+            }
+        ]
+    },
+    "sections": {
+        "hero": {
+            "variant": "gradient-subtle"
+        },
+        "filter": {
+            "variant": "pattern-grid",
+            "padding": "small"
+        },
+        "projects": {
+            "variant": "texture"
+        }
+    }
+}
